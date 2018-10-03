@@ -1,5 +1,8 @@
 {
     "ec-earth3": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -11,12 +14,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "ec-earth3-aerchem": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -34,12 +37,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "ec-earth3-cc": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -57,12 +60,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "ec-earth3-gris": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -77,12 +80,12 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
-        "toplevel": {
-            "initializedFrom": ""
         }
     }, 
     "ec-earth3-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -93,13 +96,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "ec-earth3-lr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -110,13 +113,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "ec-earth3-veg": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -127,13 +130,13 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }, 
     "ec-earth3-veg-lr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "atmos": {
             "initializedFrom": ""
         }, 
@@ -145,8 +148,56 @@
         }, 
         "seaice": {
             "initializedFrom": ""
-        }, 
+        }
+    }, 
+    "ec-earth3p": {
         "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "seaice": {
+            "initializedFrom": ""
+        }
+    }, 
+    "ec-earth3p-hr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "seaice": {
+            "initializedFrom": ""
+        }
+    }, 
+    "ec-earth3p-vhr": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
+        "atmos": {
+            "initializedFrom": ""
+        }, 
+        "land": {
+            "initializedFrom": ""
+        }, 
+        "ocean": {
+            "initializedFrom": ""
+        }, 
+        "seaice": {
             "initializedFrom": ""
         }
     }
