@@ -1,33 +1,33 @@
 {
     "ec-earth3": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }, 
     "ec-earth3-aerchem": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
         }, 
         "atmoschem": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "off"
@@ -41,7 +41,7 @@
     }, 
     "ec-earth3-cc": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -56,7 +56,7 @@
             "publish": "off"
         }, 
         "ocnbgchem": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
             "publish": "off"
@@ -64,7 +64,7 @@
     }, 
     "ec-earth3-gris": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -73,7 +73,7 @@
             "publish": "off"
         }, 
         "landice": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocean": {
             "publish": "off"
@@ -101,7 +101,7 @@
     }, 
     "ec-earth3-lr": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -118,7 +118,7 @@
     }, 
     "ec-earth3-veg": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -135,7 +135,7 @@
     }, 
     "ec-earth3-veg-lr": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
