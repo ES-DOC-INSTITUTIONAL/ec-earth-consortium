@@ -1,0 +1,52 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "EC-Earth-consortium", 
+            "name": "EC-Earth consortium", 
+            "is_organisation": false, 
+            "address_postal": "Rossby Center, Swedish Meteorological and Hydrological Institute/SMHI,\u00a0SE-601 76 Norrkoping,\u00a0Sweden\n", 
+            "address_email": "cmip6-data@ec-earth.org", 
+            "url": "http://www.ec-earth.org/", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Reerink-Thomas", 
+            "name": "Thomas Reerink", 
+            "is_organisation": false, 
+            "address_postal": "Royal Netherlands Meteorological Institute (KNMI)", 
+            "address_email": "thomas.reerink@knmi.nl", 
+            "url": "https://www.knmi.nl/over-het-knmi/onze-mensen/thomas-reerink", 
+            "orcid": "https://orcid.org/0000-0002-9983-6195"
+        }, 
+        {
+            "mnemonic": "BSC-institute", 
+            "name": "BSC", 
+            "is_organisation": false, 
+            "address_postal": "Barcelona Supercomputing Center,  Torre Girona c/Jordi Girona, 31\n Nexus II Building c/Jordi Girona, 29\n 08034 Barcelona (Spain)", 
+            "address_email": "climate.prediction@bsc.es", 
+            "url": "https://www.bsc.es/research-and-development/research-areas/climate-prediction", 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Yang-Shuting", 
+            "name": "Shuting Yang", 
+            "is_organisation": false, 
+            "address_postal": "Danish Meteorological Institute (DMI),", 
+            "address_email": "shuting@dmi.dk", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Madsen-Marianne", 
+            "name": "Marianne S. Madsen", 
+            "is_organisation": false, 
+            "address_postal": "Danish Meteorological Institute (DMI),", 
+            "address_email": "msm@dmi.dk", 
+            "url": null, 
+            "orcid": null
+        }
+    ]
+}

@@ -2,5 +2,104 @@
     "mipEra": "cmip6", 
     "institute": "ec-earth-consortium", 
     "seedingSource": "Spreadsheet", 
-    "content": []
+    "content": [
+        {
+            "mnemonic": "Doescher-et-al-2020", 
+            "doi": null, 
+            "bibtex": "\"@article{\n  title = {The Community Earth System Model EC-Earth for collaborative climate research},\n  journal = {Geoscientific Model Development Discussions},\n  author = {D\u00f6scher, v. Hardenberg, Wyser, v. Noije, Le Sager, Fladrich, Koenigk, O\u2019Donnell, Miller, Gr\u00f6ger, Menegoz \u2026 Carver, Bousetta, Almut Arneth, Louis-Philippe Caron, Raffa Bernardello , Valentina, Etienne, Pablo Ortega, Uotila, Eleftheria, Mario \u2026, Paul Nolan, \u2026 Gijs van den Oord, Thomas Reerink, Lars Nieradzik and Tommi Bergman , Peter Anthoni,  David W\u00e5rlind, Ben Smith \u200e\u2026 many others.},\n  year = {2020},\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Hazeleger-et-al-2012", 
+            "doi": "10.1007/s00382-011-1228-5", 
+            "bibtex": "@Article{Hazeleger2012,\nauthor=\"Hazeleger, W.\nand Wang, X.\nand Severijns, C.\nand {\\c{S}}tef{\\u{a}}nescu, S.\nand Bintanja, R.\nand Sterl, A.\nand Wyser, K.\nand Semmler, T.\nand Yang, S.\nand van den Hurk, B.\nand van Noije, T.\nand van der Linden, E.\nand van der Wiel, K.\",\ntitle=\"EC-Earth V2.2: description and validation of a new seamless earth system prediction model\",\njournal=\"Climate Dynamics\",\nyear=\"2012\",\nmonth=\"Dec\",\nday=\"01\",\nvolume=\"39\",\nnumber=\"11\",\npages=\"2611--2629\",\nabstract=\"EC-Earth, a new Earth system model based on the operational seasonal forecast system of the European Centre for Medium-Range Weather Forecasts (ECMWF), is presented. The performance of version 2.2 (V2.2) of the model is compared to observations, reanalysis data and other coupled atmosphere--ocean-sea ice models. The large-scale physical characteristics of the atmosphere, ocean and sea ice are well simulated. When compared to other coupled models with similar complexity, the model performs well in simulating tropospheric fields and dynamic variables, and performs less in simulating surface temperature and fluxes. The surface temperatures are too cold, with the exception of the Southern Ocean region and parts of the Northern Hemisphere extratropics. The main patterns of interannual climate variability are well represented. Experiments with enhanced CO2 concentrations show well-known responses of Arctic amplification, land-sea contrasts, tropospheric warming and stratospheric cooling. The global climate sensitivity of the current version of EC-Earth is slightly less than 1\u00a0K/(W\u00a0m\u22122). An intensification of the hydrological cycle is found and strong regional changes in precipitation, affecting monsoon characteristics. The results show that a coupled model based on an operational seasonal prediction system can be used for climate studies, supporting emerging seamless prediction strategies.\",\nissn=\"1432-0894\",\ndoi=\"10.1007/s00382-011-1228-5\",\nurl=\"https://doi.org/10.1007/s00382-011-1228-5\"\n}\n", 
+            "url": "https://link.springer.com/article/10.1007%2Fs00382-011-1228-5", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "van-Noije-et-al-2014", 
+            "doi": "10.5194/gmd-7-2435-2014", 
+            "bibtex": "@Article{gmd-7-2435-2014,\nAUTHOR = {van Noije, T. P. C. and Le Sager, P. and Segers, A. J. and van Velthoven, P. F. J. and Krol, M. C. and Hazeleger, W. and Williams, A. G. and Chambers, S. D.},\nTITLE = {Simulation of tropospheric chemistry and aerosols with the climate model EC-Earth},\nJOURNAL = {Geoscientific Model Development},\nVOLUME = {7},\nYEAR = {2014},\nNUMBER = {5},\nPAGES = {2435--2475},\nURL = {https://www.geosci-model-dev.net/7/2435/2014/},\nDOI = {10.5194/gmd-7-2435-2014}\n}", 
+            "url": "https://www.geosci-model-dev.net/7/2435/2014/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "van-Noije-et-al-2020", 
+            "doi": null, 
+            "bibtex": "@Article{,\nAUTHOR = {van Noije, T. P. C. and Le Sager, P. and others},\nTITLE = {EC-Earth3-AerChem, a global climate model with interactive aerosols and atmospheric chemistry participating in CMIP6},\nJOURNAL = {Geoscientific Model Development Discussions},\nYEAR = {2020}\n}", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Wyser-et-al-2019", 
+            "doi": "10.5194/gmd-2019-282", 
+            "bibtex": "@Article{gmd-2019-282,\nAUTHOR = {Wyser, K. and van Noije, T. and Yang, S. and von Hardenberg, J. and O'Donnell, D. and D\\\"oscher, R.},\nTITLE = {On  the increased  climate  sensitivity in the  EC-Earth model from CMIP5 to CMIP6},\nJOURNAL = {Geoscientific Model Development Discussions},\nVOLUME = {2019},\nYEAR = {2019},\nPAGES = {1--13},\nURL = {https://www.geosci-model-dev-discuss.net/gmd-2019-282/},\nDOI = {10.5194/gmd-2019-282}\n}", 
+            "url": "https://www.geosci-model-dev-discuss.net/gmd-2019-282/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Vancoppenolle-et-al-2009", 
+            "doi": "10.1016/j.ocemod.2008.10.005", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Rousset-et-al-2015", 
+            "doi": "10.5194/gmd-8-2991-2015", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Williams-et-al-2012", 
+            "doi": "10.5194/gmd-5-15-2012", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Williams-et-al-2017", 
+            "doi": "10.5194/gmd-10-721-2017", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Alessandri-et-al-2017\n", 
+            "doi": "10.1007/s00382-016-3372-4", 
+            "bibtex": "@Article{Alessandri2017,\nauthor=\"Alessandri, Andrea\nand Catalano, Franco\nand De Felice, Matteo\nand Van Den Hurk, Bart\nand Doblas Reyes, Francisco\nand Boussetta, Souhail\nand Balsamo, Gianpaolo\nand Miller, Paul A.\",\ntitle=\"Multi-scale enhancement of climate prediction over land by increasing the model sensitivity to vegetation variability in EC-Earth\",\njournal=\"Climate Dynamics\",\nyear=\"2017\",\nmonth=\"Aug\",\nday=\"01\",\nvolume=\"49\",\nnumber=\"4\",\npages=\"1215--1237\",\nabstract=\"The EC-Earth earth system model has been recently developed to include the dynamics of vegetation. In its original formulation, vegetation variability is simply operated by the Leaf Area Index (LAI), which affects climate basically by changing the vegetation physiological resistance to evapotranspiration. This coupling has been found to have only a weak effect on the surface climate modeled by EC-Earth. In reality, the effective sub-grid vegetation fractional coverage will vary seasonally and at interannual time-scales in response to leaf-canopy growth, phenology and senescence. Therefore it affects biophysical parameters such as the albedo, surface roughness and soil field capacity. To adequately represent this effect in EC-Earth, we included an exponential dependence of the vegetation cover on the LAI. By comparing two sets of simulations performed with and without the new variable fractional-coverage parameterization, spanning from centennial (twentieth century) simulations and retrospective predictions to the decadal (5-years), seasonal and weather time-scales, we show for the first time a significant multi-scale enhancement of vegetation impacts in climate simulation and prediction over land. Particularly large effects at multiple time scales are shown over boreal winter middle-to-high latitudes over Canada, West US, Eastern Europe, Russia and eastern Siberia due to the implemented time-varying shadowing effect by tree-vegetation on snow surfaces. Over Northern Hemisphere boreal forest regions the improved representation of vegetation cover tends to correct the winter warm biases, improves the climate change sensitivity, the decadal potential predictability as well as the skill of forecasts at seasonal and weather time-scales. Significant improvements of the prediction of 2\u00a0m temperature and rainfall are also shown over transitional land surface hot spots. Both the potential predictability at decadal time-scale and seasonal-forecasts skill are enhanced over Sahel, North American Great Plains, Nordeste Brazil and South East Asia, mainly related to improved performance in the surface evapotranspiration.\",\nissn=\"1432-0894\",\ndoi=\"10.1007/s00382-016-3372-4\",\nurl=\"https://doi.org/10.1007/s00382-016-3372-4\"\n}", 
+            "url": "https://link.springer.com/article/10.1007%2Fs00382-016-3372-4", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Balsamo-et-al-2009", 
+            "doi": "10.1175/2008JHM1068.1", 
+            "bibtex": "@article{doi:10.1175/2008JHM1068.1,\nauthor = {Balsamo, Gianpaolo and Beljaars, Anton and Scipal, Klaus and Viterbo, Pedro and van den Hurk, Bart and Hirschi, Martin and Betts, Alan K.},\ntitle = {A Revised Hydrology for the ECMWF Model: Verification from Field Site to Terrestrial Water Storage and Impact in the Integrated Forecast System},\njournal = {Journal of Hydrometeorology},\nvolume = {10},\nnumber = {3},\npages = {623-643},\nyear = {2009},\ndoi = {10.1175/2008JHM1068.1},\n\nURL = { \n        https://doi.org/10.1175/2008JHM1068.1\n    \n},\neprint = { \n        https://doi.org/10.1175/2008JHM1068.1\n    \n}\n,\n    abstract = { Abstract The Tiled ECMWF Scheme for Surface Exchanges over Land (TESSEL) is used operationally in the Integrated Forecast System (IFS) for describing the evolution of soil, vegetation, and snow over the continents at diverse spatial resolutions. A revised land surface hydrology (H-TESSEL) is introduced in the ECMWF operational model to address shortcomings of the land surface scheme, specifically the lack of surface runoff and the choice of a global uniform soil texture. New infiltration and runoff schemes are introduced with a dependency on the soil texture and standard deviation of orography. A set of experiments in stand-alone mode is used to assess the improved prediction of soil moisture at the local scale against field site observations. Comparison with basin-scale water balance (BSWB) and Global Runoff Data Centre (GRDC) datasets indicates a consistently larger dynamical range of land water mass over large continental areas and an improved prediction of river runoff, while the effect on atmospheric fluxes is fairly small. Finally, the ECMWF data assimilation and prediction systems are used to verify the effect on surface and near-surface quantities in the atmospheric-coupled mode. A midlatitude error reduction is seen both in soil moisture and in 2-m temperature. }\n}", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/2008JHM1068.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Best-et-al-2004", 
+            "doi": "10.1175/JHM-382.1", 
+            "bibtex": "@article{doi:10.1175/JHM-382.1,\nauthor = {Best, M. J. and Beljaars, A. and Polcher, J. and Viterbo, P.},\ntitle = {A Proposed Structure for Coupling Tiled Surfaces with the Planetary Boundary Layer},\njournal = {Journal of Hydrometeorology},\nvolume = {5},\nnumber = {6},\npages = {1271-1278},\nyear = {2004},\ndoi = {10.1175/JHM-382.1},\n\nURL = { \n        https://doi.org/10.1175/JHM-382.1\n    \n},\neprint = { \n        https://doi.org/10.1175/JHM-382.1\n    \n}\n,\n    abstract = { Abstract A generalized coupling is proposed between atmospheric models and surface schemes (land and ocean). A set of input and output variables is defined for this purpose in such a way that it can be used by many current and future models, including mosaic or tile schemes. The basic concept is to pass atmospheric variables from the lowest model level and their relation to corresponding fluxes to the surface scheme. The surface scheme returns the fluxes. In this framework, there is no need for the atmospheric model to have detailed information about the surface. Only the result of the surface computations is needed; namely, the fluxes, which are applied as a boundary condition. The equations for fully implicit coupling are derived, and the relevance for numerical stability is demonstrated. It is also shown that fully implicit coupling in a tile scheme leads to more robust results than partially implicit coupling. }", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/JHM-382.1", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Aumont-et-al-2015", 
+            "doi": "10.5194/gmd-8-2465-2015", 
+            "bibtex": "@Article{gmd-8-2465-2015,\nAUTHOR = {Aumont, O. and Eth\\'e, C. and Tagliabue, A. and Bopp, L. and Gehlen, M.},\nTITLE = {PISCES-v2: an ocean biogeochemical model for carbon and ecosystem studies},\nJOURNAL = {Geoscientific Model Development},\nVOLUME = {8},\nYEAR = {2015},\nNUMBER = {8},\nPAGES = {2465--2513},\nURL = {https://www.geosci-model-dev.net/8/2465/2015/},\nDOI = {10.5194/gmd-8-2465-2015}\n}", 
+            "url": "https://www.geosci-model-dev.net/8/2465/2015/", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Madec-et-al-1998", 
+            "doi": null, 
+            "bibtex": "@TECHREPORT{Madec1998,\n  author = {G. Madec and P. Delecluse and M. Imbard and C. Levy},\n  title = {OPA 8 Ocean General Circulation Model - Reference Manual},\n  institution = {LODYC/IPSL Note 11},\n  year = {1998}\n}\n", 
+            "url": null, 
+            "long_name": null
+        }
+    ]
 }
