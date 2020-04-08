@@ -1,0 +1,19 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3-veg-lr", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "EC-Earth3-Veg-LR"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "See Doescher-et-al-2020. Fields with an identical description for this EC-Earth3-Veg-LR configaration as for the EC-Earth3-Veg configuration are left empty."
+            ]
+        }
+    }
+}

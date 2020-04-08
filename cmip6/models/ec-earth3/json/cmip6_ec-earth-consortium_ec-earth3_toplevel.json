@@ -1,0 +1,314 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "EC-Earth3"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "The atmosphere-ocean general circulation model is described by Doescher-et-al-2020. The atmosphere is a modified version of IFS cycle 36r4, and includes the land-surface scheme H-TESSEL. The ocean and sea-ice model is NEMO-LIM3 version 3.6 with a few modifications. The OASIS3-MCT coupler version 3.0 is used to exchange fields between the atmosphere and ocean components.  \n"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2019.0
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "EC-Earth V2.2 (Hazeleger-et al-2012)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "The atmospheric component of EC-Earth3 is based on IFS cycle 36r4 instead of cycle 31r1. The descriptions of aerosols and aerosol-radiation interactions have been completely revised, and aerosol-cloud interactions have been included. The ocean and sea ice component have been upgraded from NEMO-LIM2 version 2 to NEMO-LIM3 3.6. The coupler has been upgraded from OASIS3 to OASIS3-MCT 3.0. Forcing data has changed from CMIP5 to CMIP6.\n"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.previous_name": {
+            "values": [
+                "EC-Earth"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "https://svn.ec-earth.org/ecearth3/tags/3.3.1.1/"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran, C++"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "Atmosphere includes the land surface scheme\nOcean includes the sea-ice model\nAtmopshere and ocean are coupled through coupling software"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "OASIS3-MCT: The MCT variant of the OASIS coupler"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Atmosphere grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "Atmosphere model:\n- Adjust cloud related parameters (e.g. cloud top entrainment) to bring net SFC flux close to observed value (0.5 W/m2) for present day climate\n- Keep an eye on TOA LW and SW radiation components to keep them close to observed values\n- Ensure that cloud forcing (SW and LW) are not too far off observations\nOcean model:\n- adjust thermal conductivity of snow over sea ice to control the sea ice volume"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "net SFC flux, net SW TOA, net LW TOA, SWCF, LWCF, Arctic sea ice volume"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "First the atmosphere model was tuned, then the coupled model."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "In the coupled model"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
+            "values": [
+                "The area integrated heat flux over the ocean is conserved in the coupling."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
+            "values": [
+                "Heat is not conserved in the atmosphere/sea-ice coupling."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface": {
+            "values": [
+                "The area integrated fresh water flux over the ocean is conserved in the coupling"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface": {
+            "values": [
+                "Fresh water is not explicitely conserved in the atmosphere/sea-ice coupling"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.runoff": {
+            "values": [
+                "Runoff is collected in drainage basins and released to the ocean at river mouths\nRunoff is scaled with a constant factor to compensate for the change in SSH that was found in long simulations with constant forcing."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation": {
+            "values": [
+                "Accumulated snow from the interior of continents is dumped into the surrouding ocean as icebergs."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.momentum.details": {
+            "values": [
+                "Total momentum isn't conserved explicitely"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
+            "values": [
+                "Option 2: CFC-12 is provided as actual concentrations and any other gases are provided as an equivalence concentration of CFC-11"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017), added to a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017), added to a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017), added to a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017), added to a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017): Cloud droplet effective radius in stratiform clouds calculated based on the cloud activation scheme from Abdul-Razzak and Ghan (2000) applied to a prescribed pre-industrial aerosol concentration climatology, modified by a scaling factor from MACv2-SP.\n"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information": {
+            "values": [
+                "Via MACv2-SP (Stevens et al., 2017): Autoconversion in stratiform clouds depends on cloud droplet number concentration, which is calculated based on the cloud activation scheme from Abdul-Razzak and Ghan (2000) applied to a prescribed pre-industrial aerosol concentration climatology, modified by a scaling factor from MACv2-SP. \n"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "C: Fixed prescribed climatology of concentrations with no year-to-year variability"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
+            "values": [
+                "Dust effects are included via a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "C: Fixed prescribed climatology of concentrations with no year-to-year variability"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information": {
+            "values": [
+                "The pre-industrial aerosol climatology accounts for SOx emissions from continuously emitting volcanoes based on the estimates from Andres and Kasgnoc (JGR, 1998).\n"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type A: Explosive volcanic aerosol returns rapidly to zero (or near-zero) background."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E: Explosive volcanic aerosol set to constant (average volcano) background"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
+            "values": [
+                "Forcing prescribed according to the CMIP6 forcing data set."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "C: Fixed prescribed climatology of concentrations with no year-to-year variability"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
+            "values": [
+                "Sea salt effects are included via a pre-industrial aerosol climatology."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.provision": {
+            "values": [
+                "irradiance: Solar irradiance forcing"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.additional_information": {
+            "values": [
+                "Forcing prescribed according to the CMIP6 forcing data set."
+            ]
+        }
+    }
+}

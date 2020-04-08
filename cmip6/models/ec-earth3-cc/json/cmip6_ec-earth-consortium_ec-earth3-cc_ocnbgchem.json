@@ -1,0 +1,142 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3-cc", 
+    "topic": "ocnbgchem", 
+    "content": {
+        "cmip6.ocnbgchem.key_properties.name": {
+            "values": [
+                "PISCES-v2"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.keywords": {
+            "values": [
+                "ocean biogeochemical cycles, marine ecosystems"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.overview": {
+            "values": [
+                "The ocean biogeochemical model used in EC-Earth3-CC is PISCES-v2 (see Aumont-et-al-2015 for a detailed description). In the configuration used in EC-Earth-CC the iron pools are computed using the complex chemistry model of Tagliabue-and-Arrigo-2006. Silicate, nitrate, phosphate and alkalinity are relaxed to a global mean value to avoid drift derived from mismatch between river input and sedimentation. "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.model_type": {
+            "values": [
+                "PFT: Several plankton types"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry": {
+            "values": [
+                "Mix of both: Both fixed and mixed stoichiometry"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry_details": {
+            "values": [
+                "C/N/P fixed stoichiometry, Si and Fe have variable quotas"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
+            "values": [
+                "Dissolved inorganic carbon, total alkalinity, dissolved oxygen, calcite, phosphate, small organic carbon particles, silicate, nanophytoplankton, microzooplankton, dissolved organic carbon, diatoms carbon, mesozooplankton, diatoms silicate, dissolved iron, big iron particles, big organic carbon particle, small iron particles, diatoms iron, biogenic silicate, nanophytoplankton iron, nanophytoplankton chlorophyll, diatoms chlorophyll, nitrate, ammonium. \n"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.damping": {
+            "values": [
+                "Phosphate, nitrate, silicate and total alkalinity are relaxed towards global average values."
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
+            "values": [
+                "use ocean model transport time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.method": {
+            "values": [
+                "use ocean model transport time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.transport_scheme.type": {
+            "values": [
+                "Online"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.sulfur_cycle_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.nutrients_present": {
+            "values": [
+                "Phosphorous (P)", 
+                "Nitrogen (N)", 
+                "Silicon (S)", 
+                "Iron (Fe)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.nitrous_species_if_N": {
+            "values": [
+                "Amonium (NH4)", 
+                "Nitrates (NO3)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.nitrous_processes_if_N": {
+            "values": [
+                "Dentrification", 
+                "N fixation"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.upper_trophic_levels_definition": {
+            "values": [
+                "Micro- and meso-zooplankton (based on size)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.phytoplankton.type": {
+            "values": [
+                "PFT only (specify below)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.phytoplankton.pft": {
+            "values": [
+                "Diatoms"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.zooplankton.type": {
+            "values": [
+                "Size based (specify below)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.ecosystem.zooplankton.size_classes": {
+            "values": [
+                "Microzooplankton", 
+                "Mesozooplankton"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.disolved_organic_matter.bacteria_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.particules.method": {
+            "values": [
+                "Prognostic"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.particules.types_if_prognostic": {
+            "values": [
+                "POC", 
+                "PIC (calcite)", 
+                "BSi"
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.abiotic_carbon": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.tracers.dic_alkalinity.alkalinity": {
+            "values": [
+                "Prognostic"
+            ]
+        }
+    }
+}

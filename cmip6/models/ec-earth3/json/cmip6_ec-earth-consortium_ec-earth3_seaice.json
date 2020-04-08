@@ -1,0 +1,34 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3", 
+    "topic": "seaice", 
+    "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "LIM3"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "Louvain-la-Neuve sea ice model version 3 (LIM3) as included in the Nucleus for European Modelling of the Ocean (NEMO) modelling framework version 3.6"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "ORCA1"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "1 degree"
+            ]
+        }, 
+        "cmip6.seaice.grid.name": {
+            "values": [
+                "ORCA1\n"
+            ]
+        }
+    }
+}

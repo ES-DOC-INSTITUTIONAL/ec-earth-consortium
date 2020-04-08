@@ -1,0 +1,194 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3-aerchem", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "EC-Earth3-AerChem"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "See noije-et-al-2020. Fields with an identical description for this EC-Earth3-AerChem configuration as for the EC-Earth3 configuration are left empty."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "https://svn.ec-earth.org/ecearth3/tags/3.3.2/"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "version 3.3.2"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran; C"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "The structure is the same as for EC-Earth3, with the addition that TM5 is coupled to IFS via the coupler.\n"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "OASIS3-MCT: The MCT variant of the OASIS coupler"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "The spinup under pre-industrial conditions started from a model version with the same settings of tuning parameters for both the atmosphere and ocean as used in EC-Earth3. The use of interactive aerosols and atmospheric chemistry in EC-Earth3-AerChem  led to a small increase of surface temperatures, especially in the Northern Hemisphere. Three atmospheric tuning parameters have been changed in EC-Earth3-AerChem compared to EC-Earth3 to reduce the global mean temperature by about 0.5 K. See van-Noije-et-al-2014."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Same as for EC-Earth3; fine tuning of EC-Earth3-AerChem based on zonal mean surface air temperature"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "ES: Surface emissions (and 3-D concentrations away from the surface) derived via the model from the prescribed surface concentration"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information": {
+            "values": [
+                "Zonal mean surface mixing ratios are prescribed in the lower troposphere and in the stratosphere following the CMIP6 time series, using Newtonian relaxation. A one-year delay is applied between the surface and the stratosphere. Anthropogenic and biomass burning emissions of methane are prescribed using the CMIP6 data set; natural emissions and uptake by soils are prescribed to a monthly climatology. The effective total emissions are determined by the combination of the prescribed fluxes and the tendencies applied in the relaxation scheme."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information": {
+            "values": [
+                "Zonal mean mixing ratios above certain levels in the stratosphere are prescribed following the CMIP6 data set, using Newtonian relaxation. "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information": {
+            "values": [
+                "Cloud droplet effective radius in stratiform clouds calculated based on the cloud activation scheme from Abdul-Razzak and Ghan (2000) applied to the interactively calculated aerosol concentrations."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information": {
+            "values": [
+                "Autoconversion in stratiform clouds depends on cloud droplet number concentration, which is calculated based on the cloud activation scheme from Abdul-Razzak and Ghan (2000) applied to the interactively calculated aerosol concentrations."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
+            "values": [
+                "\n"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type D: Explosive volcanic aerosol set to zero"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information": {
+            "values": [
+                "SOx emissions from continuously emitting volcanoes are included following the emission climatology from Andres and Kasgnoc (JGR, 1998).\n"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type A: Explosive volcanic aerosol returns rapidly to zero (or near-zero) background."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E: Explosive volcanic aerosol set to constant (average volcano) background"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
+            "values": [
+                "Forcing prescribed according to the CMIP6 forcing data set."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }
+    }
+}

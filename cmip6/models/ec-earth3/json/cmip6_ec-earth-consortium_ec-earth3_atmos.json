@@ -1,0 +1,385 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3", 
+    "topic": "atmos", 
+    "content": {
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "Integrated Forecasting System (IFS)"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.overview": {
+            "values": [
+                "The model used in EC-Earth3 is a modified version of IFS cycle 36r4.\n"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM: Atmospheric General Circulation Model"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "primitive equations", 
+                "hydrostatic"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.horizontal_resolution_name": {
+            "values": [
+                "T255"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "0.7 degrees or 80 km"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                91.0
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.high_top": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                2700.0
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_shortwave_radiative_transfer": {
+            "values": [
+                10800.0
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_longwave_radiative_transfer": {
+            "values": [
+                10800.0
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "fixed: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.description": {
+            "values": [
+                "Adjust cloud related parameters (e.g. cloud top entrainment) to bring net SFC flux close to observed value (0.5 W/m2) for present day climate\nKeep an eye on TOA LW and SW radiation components to keep them close to observed values\nEnsure that cloud forcing (SW and LW) are not too far off observations "
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "net SFC flux, net SW TOA, net LW TOA, SWCF, LWCF"
+            ]
+        }, 
+        "cmip6.atmos.grid.name": {
+            "values": [
+                "Tl255L91"
+            ]
+        }, 
+        "cmip6.atmos.grid.overview": {
+            "values": [
+                "Spectral representation with triangular truncation at wavenumber 255 with a linear N128 reduced Gaussian grid and 91 hybrid sigma-pressure levels in the vertical.\n"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "Other: Spectral transform method to alternate between spectral and grid-point representations each time-step."
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.horizontal_pole": {
+            "values": [
+                "Other: not necessary because Gaussian grid with no poles"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Gaussian"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.vertical.coordinate_type": {
+            "values": [
+                "hybrid sigma-pressure: sigma system near terrain and isobaric above"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.name": {
+            "values": [
+                "IFS"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.overview": {
+            "values": [
+                "The hydrostatic, semi-implicit, semi-Lagrangian dynamical core of IFS cycle 36r4."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "semi-implicit"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_name": {
+            "values": [
+                "The radiation scheme of IFS cycle 36r4 is used."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "semi-Lagrangian"
+            ]
+        }, 
+        "cmip6.atmos.radiation.name": {
+            "values": [
+                "McRad"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "The McRad radiation scheme of IFS cycle 36r4."
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "organic", 
+                "sulphate", 
+                "dust", 
+                "BC: black carbon / soot", 
+                "Other: stratospheric background"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.name": {
+            "values": [
+                "Rapid Radiative Transfer Model for general circulation models (RRTMG_SW)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.transport_calculation": {
+            "values": [
+                "two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                14.0
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.general_interactions": {
+            "values": [
+                "emission/absorption,", 
+                "scattering"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "CO2: Carbon Dioxide", 
+                "CH4: Methane", 
+                "O3", 
+                "H2O"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.ODS": {
+            "values": [
+                "Other: None"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.other_flourinated_gases": {
+            "values": [
+                "Other: None"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.physical_representation": {
+            "values": [
+                "ice water path: Integrated ice water path through the cloud kg m-2", 
+                "effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.optical_methods": {
+            "values": [
+                "Other: Fu (1996)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.physical_representation": {
+            "values": [
+                "liquid water path: Integrated liquid water path through the cloud kg m-2", 
+                "effective cloud droplet radii"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Other: Slingo (1989)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_inhomogeneity.cloud_inhomogeneity": {
+            "values": [
+                "Monte Carlo Independent Column Approximation: McICA"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.physical_representation": {
+            "values": [
+                "Other: Optical depth, single-scattering albedo and asymmetry factor \n"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.optical_methods": {
+            "values": [
+                "Other: Optical properties prescribed based on a combination of different data sets: the CMIP6 forcing data set for stratospheric aerosols and MACv2-SP in addition to a pre-industrial climatology calculated using Mie theory for tropospheric aerosols."
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.name": {
+            "values": [
+                "Rapid Radiative Transfer Model for general circulation models (RRTMG_LW)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                16.0
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.general_interactions": {
+            "values": [
+                "emission/absorption,"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "CO2: Carbon Dioxide", 
+                "CH4: Methane", 
+                "N2O: Nitrous Oxide", 
+                "CFC-11 eq: Summarize the effect of non CO2, CH4, N2O and CFC-12 gases with an equivalence concentration of CFC-11", 
+                "O3", 
+                "H2O", 
+                "Other: CFC-12"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.ODS": {
+            "values": [
+                "CFC-12: CFC", 
+                "CFC-11: CFC"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.other_flourinated_gases": {
+            "values": [
+                "Other: none"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.physical_reprenstation": {
+            "values": [
+                "ice water path: Integrated ice water path through the cloud kg m-2", 
+                "effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.optical_methods": {
+            "values": [
+                "Other: Fu et al. (1998)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.physical_representation": {
+            "values": [
+                "liquid water path: Integrated liquid water path through the cloud kg m-2", 
+                "effective cloud droplet radii"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Other: Lindner and Li (2000)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_inhomogeneity.cloud_inhomogeneity": {
+            "values": [
+                "Monte Carlo Independent Column Approximation: McICA"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_aerosols.physical_representation": {
+            "values": [
+                "Other: Absorption optical depth \n"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "cloud ice", 
+                "mixed phase", 
+                "ice nucleation", 
+                "water vapour deposition", 
+                "effect of raindrops", 
+                "effect of snow"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.scheme_type": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "convective, stratiform"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "bulk cloud", 
+                "entrainment", 
+                "detrainment"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.prognostic_variables": {
+            "values": [
+                "cloud amount", 
+                "liquid", 
+                "ice"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "Prescribed following the CMIP6 forcing data set"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_characteristics": {
+            "values": [
+                "In the stratosphere via the CMIP6 stratospheric aerosol forcing data set, in the troposphere via the pre-industrial aerosol climatology which accounts for SOx emissions from continuously emitting volcanoes (Andres and Kasgnoc, 1998). \n"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "Other: Prescribed aerosol SW optical properties and LW absorption in the stratosphere and pre-industrial climatology of concentrations and optical properties in the troposphere."
+            ]
+        }
+    }
+}

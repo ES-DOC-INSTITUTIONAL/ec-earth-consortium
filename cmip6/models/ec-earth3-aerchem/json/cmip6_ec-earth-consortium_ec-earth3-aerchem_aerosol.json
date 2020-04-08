@@ -1,0 +1,334 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ec-earth-consortium", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "ec-earth3-aerchem", 
+    "topic": "aerosol", 
+    "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "TM5"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "troposphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols", 
+                "3D number concentration for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                28.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.repository": {
+            "values": [
+                "https://svn.ec-earth.org/ecearth3/tags/3.3.2/sources/tm5mp/"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_version": {
+            "values": [
+                "TM5-mp version 3.0"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Specific timestepping (operator splitting)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                3600.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Back Euler"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.frequency": {
+            "values": [
+                21600.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.name": {
+            "values": [
+                "2x3 degrees"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "2x3 degrees lat-lon"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                34.0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.description": {
+            "values": [
+                "The offline version of TM5, which is driven by meteorological reanalysis data, contains some tuning parameters. The TM5 version applied in EC-Earth3-AerChem uses the same tuning parameter settings as the offline model driven by ERA-Interim.\n"
+            ]
+        }, 
+        "cmip6.aerosol.grid.name": {
+            "values": [
+                "reduced regular grid"
+            ]
+        }, 
+        "cmip6.aerosol.grid.overview": {
+            "values": [
+                "Regular grid with resolution of 2x3 degrees latitude x longitude. A reduced grid is applied towards the poles. Surface emission fluxes and dry deposition velocities are calculated on a regular 1x1 degree grid."
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "2x3 degrees"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "2x3 degrees lat-lon"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                34.0
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.transport.name": {
+            "values": [
+                "TM5"
+            ]
+        }, 
+        "cmip6.aerosol.transport.overview": {
+            "values": [
+                "Transport by advection, cumulus convection, vertical diffusion, and sedimentation (see van-Noije-et-al-2014). Advection is described using the first-order \"slopes\" advection scheme from Russell and Lerner (1981)."
+            ]
+        }, 
+        "cmip6.aerosol.transport.scheme": {
+            "values": [
+                "Uses atmospheric chemistry transport scheme"
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Uses atmospheric chemistry transport scheme"
+            ]
+        }, 
+        "cmip6.aerosol.transport.convention": {
+            "values": [
+                "Uses atmospheric chemistry transport scheme", 
+                "Convective fluxes connected to tracers"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.overview": {
+            "values": [
+                "Anthropogenic and biomass burning emissions of aerosols and precursor gases from CMIP6. Other emissions as described by van-Noije-et-al-2020."
+            ]
+        }, 
+        "cmip6.aerosol.emissions.method": {
+            "values": [
+                "Interactive", 
+                "Interactive above surface"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.sources": {
+            "values": [
+                "Anthropogenic", 
+                "Aircraft", 
+                "Fires", 
+                "Vegetation", 
+                "Bare ground", 
+                "Sea surface", 
+                "Lightning", 
+                "Volcanos"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "\n"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "See description of atmospheric chemistry component"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "See description of atmospheric chemistry component"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.overview": {
+            "values": [
+                "\n"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.external": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.internal": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.mixtures.mixing_rule": {
+            "values": [
+                "Effective-medium approximations are applied to calculate the refractive indices of the internally\nmixed modes. Sulfate (incl. MSA), ammonium-nitrate, organic aerosols, sea salt, and water are\ntreated as homogeneous mixtures described by the Bruggeman mixing rule. When black carbon and/or dust are present in the\nmix, these are treated as inclusions in a homogeneous background medium, using the Maxwell\u2013Garnett mixing rule."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.size": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.internal_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.impact_of_h2o.external_mixture": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview": {
+            "values": [
+                "The radiation scheme is McRad, which uses RRTMG_SW and RRTMG_LW for the shortwave and longwave, respectively. See description of atmosphere model."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
+            "values": [
+                16.0
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
+            "values": [
+                14.0
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.twomey": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.drizzle": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.cloud_lifetime": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.longwave_bands": {
+            "values": [
+                14.0
+            ]
+        }, 
+        "cmip6.aerosol.model.name": {
+            "values": [
+                "TM5"
+            ]
+        }, 
+        "cmip6.aerosol.model.overview": {
+            "values": [
+                "\n"
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Dry deposition", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)", 
+                "Coagulation", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Condensation", 
+                "Advection (horizontal)", 
+                "Advection (vertical)", 
+                "Heterogeneous chemistry", 
+                "Nucleation", 
+                "Other:  "
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Gas phase chemistry", 
+                "Heterogeneous chemistry", 
+                "Radiation", 
+                "Clouds", 
+                "Land surface", 
+                "Ocean"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "SO2", 
+                "DMS", 
+                "Ammonia", 
+                "Isoprene", 
+                "Terpene", 
+                "NOx"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Modal", 
+                "Bulk"
+            ]
+        }, 
+        "cmip6.aerosol.model.bulk_scheme_species": {
+            "values": [
+                "Nitrate", 
+                "Other: NH4", 
+                "Other: MSA"
+            ]
+        }
+    }
+}
