@@ -4,57 +4,5 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3", 
     "topic": "land", 
-    "content": {
-        "cmip6.land.key_properties.name": {
-            "values": [
-                "HTESSEL"
-            ]
-        }, 
-        "cmip6.land.key_properties.overview": {
-            "values": [
-                "The Hydrology Tiled ECMWF Scheme of Surface Exchanges over Land (HTESSEL; Balsamo-et-al-2009) is the land surface model interfacing with the atmospheric boundary layer and solving the energy and water balance at the land surface in EC-Earth. The land model has been modified to include additional processes, as described in Alessandri-et-al-2017 and Doescher-et-al-2020."
-            ]
-        }, 
-        "cmip6.land.key_properties.description": {
-            "values": [
-                "The coupling of biophysical parameters in HTESSEL has been enhanced since CMIP5, where only the surface resistance to evapotranspiration and water intercepted and directly evaporated from vegetation canopies were made to depend on vegetation. On the other hand, in CMIP6 the surface albedo (including shading effect of high vegetation), surface roughness length and soil water exploitable by roots for evapotranspiration also do vary following the variability of the effective vegetation cover. Vegetation density is parameterized according to the Lambert Beer law of extinction of light under a vegetation canopy and is therefore allowed to change as a function of Leaf Area Index (LAI) for both low and high vegetation as described in Alessandri-et-al-2017. The surface albedo (including shading effect of high vegetation), surface roughness length and soil water exploitable by roots for evapotranspiration also do vary following the variability of the effective vegetation cover. Time-dependent albedo for each grid-point is represented by a scheme that computes the total surface albedo (Atot) as a weighted combination of contributions from low and high vegetation albedo (Aveglow,high) plus a background time-constant soil albedo (Asoil)."
-            ]
-        }, 
-        "cmip6.land.key_properties.atmospheric_coupling_treatment": {
-            "values": [
-                "Implicit coupling (Best-et-al-2004)"
-            ]
-        }, 
-        "cmip6.land.key_properties.land_cover": {
-            "values": [
-                "vegetated", 
-                "bare soil"
-            ]
-        }, 
-        "cmip6.land.key_properties.land_cover_change": {
-            "values": [
-                "Prescribed from LUH2 dataset"
-            ]
-        }, 
-        "cmip6.land.key_properties.tiling": {
-            "values": [
-                "HTESSEL discretization, for each grid point, solves for up to six different land surface tiles that may be present over land (bare ground, low and high vegetation, intercepted water by vegetation, and vegetation-shaded and exposed snow). Surface radiative, latent heat and sensible heat fluxes are calculated as a weighted average of the values over each tile. The background tile fractions (bare ground, Ab , low and high vegetation maximum fractional coverages, Al,h ) and vegetation densities (Cl,h ) are represented to ensure that each grid point sum to unity. The discretization in HTESSEL is such that coexistence in each grid point of more than one type of low and high vegetation, respectively is not allowed. Therefore, for each grid-point and for both low and high vegetation covers, a dominant TV,l,h (dominant=meaning type with the higher relative area fraction for either high or low vegetation) type is identified."
-            ]
-        }, 
-        "cmip6.land.vegetation.dynamic_vegetation": {
-            "values": [
-                false
-            ]
-        }, 
-        "cmip6.land.vegetation.vegetation_time_variation": {
-            "values": [
-                "prescribed (varying from files)"
-            ]
-        }, 
-        "cmip6.land.vegetation.leaf_area_index": {
-            "values": [
-                "prescribed"
-            ]
-        }
-    }
+    "content": {}
 }

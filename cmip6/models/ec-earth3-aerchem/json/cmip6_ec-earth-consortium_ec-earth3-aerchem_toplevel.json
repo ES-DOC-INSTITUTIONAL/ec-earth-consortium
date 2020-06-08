@@ -5,51 +5,6 @@
     "sourceID": "ec-earth3-aerchem", 
     "topic": "toplevel", 
     "content": {
-        "cmip6.toplevel.key_properties.name": {
-            "values": [
-                "EC-Earth3-AerChem"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.overview": {
-            "values": [
-                "See noije-et-al-2020. Fields with an identical description for this EC-Earth3-AerChem configuration as for the EC-Earth3 configuration are left empty."
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.repository": {
-            "values": [
-                "https://svn.ec-earth.org/ecearth3/tags/3.3.2/"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.code_version": {
-            "values": [
-                "version 3.3.2"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.code_languages": {
-            "values": [
-                "Fortran; C"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.components_structure": {
-            "values": [
-                "The structure is the same as for EC-Earth3, with the addition that TM5 is coupled to IFS via the coupler.\n"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.software_properties.coupler": {
-            "values": [
-                "OASIS3-MCT: The MCT variant of the OASIS coupler"
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.tuning_applied.description": {
-            "values": [
-                "The spinup under pre-industrial conditions started from a model version with the same settings of tuning parameters for both the atmosphere and ocean as used in EC-Earth3. The use of interactive aerosols and atmospheric chemistry in EC-Earth3-AerChem  led to a small increase of surface temperatures, especially in the Northern Hemisphere. Three atmospheric tuning parameters have been changed in EC-Earth3-AerChem compared to EC-Earth3 to reduce the global mean temperature by about 0.5 K. See van-Noije-et-al-2014."
-            ]
-        }, 
-        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
-            "values": [
-                "Same as for EC-Earth3; fine tuning of EC-Earth3-AerChem based on zonal mean surface air temperature"
-            ]
-        }, 
         "cmip6.toplevel.radiative_forcings.name": {
             "values": [
                 "CMIP6"
