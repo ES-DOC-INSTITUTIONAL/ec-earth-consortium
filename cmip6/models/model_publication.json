@@ -84,19 +84,19 @@
     }, 
     "ec-earth3-hr": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "off"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }, 
     "ec-earth3-lr": {
@@ -104,16 +104,16 @@
             "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
             "publish": "off"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }, 
     "ec-earth3-veg": {
@@ -124,7 +124,7 @@
             "publish": "off"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocean": {
             "publish": "off"
@@ -152,7 +152,7 @@
     }, 
     "ec-earth3p": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -169,7 +169,7 @@
     }, 
     "ec-earth3p-hr": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
@@ -186,7 +186,7 @@
     }, 
     "ec-earth3p-vhr": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
             "publish": "off"
