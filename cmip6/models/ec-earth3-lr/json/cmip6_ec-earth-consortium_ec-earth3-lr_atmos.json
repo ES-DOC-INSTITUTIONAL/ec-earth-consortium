@@ -4,5 +4,16 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-lr", 
     "topic": "atmos", 
-    "content": {}
+    "content": {
+        "cmip6.atmos.grid.name": {
+            "values": [
+                "T159L62"
+            ]
+        }, 
+        "cmip6.atmos.grid.overview": {
+            "values": [
+                "Spectral representation with triangular truncation at wavenumber 159 with a linear N??? reduced Gaussian grid and 62 hybrid sigma-pressure levels in the vertical.\n"
+            ]
+        }
+    }
 }

@@ -4,5 +4,11 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-lr", 
     "topic": "ocean", 
-    "content": {}
+    "content": {
+        "cmip6.ocean.grid.name": {
+            "values": [
+                "ORCA1L75"
+            ]
+        }
+    }
 }

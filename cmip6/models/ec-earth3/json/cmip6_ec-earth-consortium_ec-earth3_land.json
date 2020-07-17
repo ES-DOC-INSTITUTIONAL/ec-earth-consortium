@@ -4,5 +4,255 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3", 
     "topic": "land", 
-    "content": {}
+    "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "HTESSEL"
+            ]
+        }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "Water cycle, energy balance, snow, prescribed vegetation, prescribed land cover and land use change"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "The Hydrology Tiled ECMWF Scheme of Surface Exchanges over Land (HTESSEL; Balsamo-et-al-2009) is the land surface model interfacing with the atmospheric boundary layer and solving the energy and water balance at the land surface in EC-Earth. The land model has been modified to include additional processes, as described in Alessandri-et-al-2017 and Doescher-et-al-2020."
+            ]
+        }, 
+        "cmip6.land.key_properties.description": {
+            "values": [
+                "The coupling of biophysical parameters in HTESSEL has been enhanced since CMIP5, where only the surface resistance to evapotranspiration and water intercepted and directly evaporated from vegetation canopies were made to depend on vegetation. On the other hand, in CMIP6 the surface albedo (including shading effect of high vegetation), surface roughness length and soil water exploitable by roots for evapotranspiration also do vary following the variability of the effective vegetation cover. Vegetation density is parameterized according to the Lambert Beer law of extinction of light under a vegetation canopy and is therefore allowed to change as a function of Leaf Area Index (LAI) for both low and high vegetation as described in Alessandri-et-al-2017. The surface albedo (including shading effect of high vegetation), surface roughness length and soil water exploitable by roots for evapotranspiration also do vary following the variability of the effective vegetation cover. Time-dependent albedo for each grid-point is represented by a scheme that computes the total surface albedo (Atot) as a weighted combination of contributions from low and high vegetation albedo (Aveglow,high) plus a background time-constant soil albedo (Asoil)."
+            ]
+        }, 
+        "cmip6.land.key_properties.land_atmosphere_flux_exchanges": {
+            "values": [
+                "water", 
+                "energy"
+            ]
+        }, 
+        "cmip6.land.key_properties.atmospheric_coupling_treatment": {
+            "values": [
+                "Implicit coupling (Best-et-al-2004)"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "vegetated", 
+                "bare soil"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover_change": {
+            "values": [
+                "Prescribed from LUH2 dataset"
+            ]
+        }, 
+        "cmip6.land.key_properties.tiling": {
+            "values": [
+                "HTESSEL discretization, for each grid point, solves for up to six different land surface tiles that may be present over land (bare ground, low and high vegetation, intercepted water by vegetation, and vegetation-shaded and exposed snow). Surface radiative, latent heat and sensible heat fluxes are calculated as a weighted average of the values over each tile. The background tile fractions (bare ground, Ab , low and high vegetation maximum fractional coverages, Al,h ) and vegetation densities (Cl,h ) are represented to ensure that each grid point sum to unity. The discretization in HTESSEL is such that coexistence in each grid point of more than one type of low and high vegetation, respectively is not allowed. Therefore, for each grid-point and for both low and high vegetation covers, a dominant TV,l,h (dominant=meaning type with the higher relative area fraction for either high or low vegetation) type is identified."
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.time_step": {
+            "values": [
+                2700.0
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestepping_method": {
+            "values": [
+                "Forward"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_languages": {
+            "values": [
+                "fortran"
+            ]
+        }, 
+        "cmip6.land.grid.name": {
+            "values": [
+                "T255"
+            ]
+        }, 
+        "cmip6.land.grid.horizontal.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.grid.vertical.description": {
+            "values": [
+                "The vertical disceretisation is in four layers, that are consistent among ground-water and energy representation. The depth of layers (in meters) is as follows (from top to bottom): 0.07, 0.21, 0.72, 1.89. "
+            ]
+        }, 
+        "cmip6.land.grid.vertical.total_depth": {
+            "values": [
+                2.89
+            ]
+        }, 
+        "cmip6.land.soil.overview": {
+            "values": [
+                "The skin temperature is in thermal contact with a four-layer soil or, if there is snow present, a single-layer snow mantle overlying the soil. The snow temperature varies due to the combined effect of top energy fluxes, basal heat flux and the melt energy. The soil heat budget follows a Fourier diffusion law, modified to take into account the thermal effects of soil water phase changes. The energy equation is solved with a net ground heat flux as the top boundary condition and a zero-flux at the bottom."
+            ]
+        }, 
+        "cmip6.land.soil.prognostic_variables": {
+            "values": [
+                "soil temperature, volumetric water content, water in the interception reservoir"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "soil texture map, derived from the FAO/UNESCO Digital Soil Map of the World, distinguishes 7 soil types: coarse, medium, medium-fine, fine, very-fine, organic, tropical-organic."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "Constant soil albedo map from Rechid-et-al-2009 is assumed. Four bands are used: UV and NI beams for parallel and diffuse components"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.prognostic": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.vertical_discretisation": {
+            "values": [
+                "The vertical disceretisation is in four ground water layers, that are consistent with the layers considered for energy. The depth of layers (in meters) is as follows (from top to bottom): 0.07, 0.21, 0.72, 1.89. "
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.drainage.types": {
+            "values": [
+                "topmodel-based", 
+                "Lateral subsurface flow"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.description": {
+            "values": [
+                "The soil heat budget follows a Fourier diffusion law, modified to take into account the thermal effects of soil water phase changes. The energy equation is solved with a net ground heat flux as the top boundary condition and a zero-flux at the bottom."
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.time_step": {
+            "values": [
+                2700.0
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.vertical_discretisation": {
+            "values": [
+                "The vertical disceretisation is in four layers, that are consistent with the layers considered for ground water representation. The depth of layers (in meters) is as follows (from top to bottom): 0.07, 0.21, 0.72, 1.89. "
+            ]
+        }, 
+        "cmip6.land.snow.name": {
+            "values": [
+                "HTESSEL"
+            ]
+        }, 
+        "cmip6.land.snow.overview": {
+            "values": [
+                "The snow scheme represents an additional layer on top of the upper soil layer, with an independent, prognostic, thermal and mass contents. The snow pack is represented by a single snow temperature, and the snow mass per unit area. The net energy \ufb02ux at the top of the snowpack, is the residual of the skin energy balance from the snow covered tiles and the snow evaporation from the tile with high vegetation over snow. The absorbed energy is used to change the snow temperature or melt the snow. Liquid water within the snow pack is diagnosed from snow temperature, snow mass and snow density. Liquid water coexists in the snowpack leading to\ninternal phase changes (freezing/melting), and rainfall can bend intercepted."
+            ]
+        }, 
+        "cmip6.land.snow.tiling": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                1.0
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.heat_content": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.liquid_water_content": {
+            "values": [
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "ground snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "snow melting", 
+                "snow freezing"
+            ]
+        }, 
+        "cmip6.land.snow.prognostic_variables": {
+            "values": [
+                "snow water equivalent, snow temperature, snow density, snow albedo"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.functions": {
+            "values": [
+                "snow age"
+            ]
+        }, 
+        "cmip6.land.vegetation.overview": {
+            "values": [
+                "Vegetation is represented by four parameters: vegetation cover of low vegetation, vegetation\ncover of high vegetation, low vegetation type and high vegetation type."
+            ]
+        }, 
+        "cmip6.land.vegetation.dynamic_vegetation": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "Other: Crops, Mixed Farming", 
+                "Other: Short Grass", 
+                "Other: Evergreen Needleleaf Trees", 
+                "Other: Deciduous Needleleaf Trees", 
+                "Other: Deciduous Broadleaf Trees", 
+                "Other: Evergreen Broadleaf Trees", 
+                "Other: Tall Grass", 
+                "Other: Tundra", 
+                "Other: Irrigated Crops", 
+                "Other: Semidesert", 
+                "Other: Bogs and Marshes", 
+                "Other: Evergreen Shrubs", 
+                "Other: Deciduous Shrubs", 
+                "Other: Mixed Forest/woodland", 
+                "Other: Interrupted Forest", 
+                "Other: Water and Land Mixtures"
+            ]
+        }, 
+        "cmip6.land.energy_balance.overview": {
+            "values": [
+                "A skin temperature forms the interface between the soil and the atmosphere. It is calculated for each grid box tiles separately. For a single tile, this procedure is very similar to the derivation of the Penman-Monteith equation in which the skin temperature is eliminated from the surface energy balance equation. The numerical approach used in HTESSEL allows that the feedback of skin temperature on net radiation and ground heat flux is included. Up to six different land surface tiles are considered over each grid point: bare ground, low and high vegetation, intercepted water by vegetation, and shaded and exposed snow. The input radiation and reference atmospheric temperature, specific humidity and wind speed are identical for each tile. The surface fluxes seen by the atmosphere are calculated as an area-weighted average over the tiles. The solution of the energy balance equation is coupled/performed together with the boundary layer turbulent scheme, i.e. inside the code for turbulent exchanges in the atmosphere."
+            ]
+        }
+    }
 }

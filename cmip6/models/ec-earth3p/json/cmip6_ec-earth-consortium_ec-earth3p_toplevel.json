@@ -4,5 +4,16 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3p", 
     "topic": "toplevel", 
-    "content": {}
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "EC-Earth3P"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "See Doescher-et-al-2020. Fields with an identical description for this EC-Earth3P configaration as for the EC-Earth3 configuration are left empty."
+            ]
+        }
+    }
 }

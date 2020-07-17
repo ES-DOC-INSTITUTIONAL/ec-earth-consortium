@@ -4,5 +4,11 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-gris", 
     "topic": "landice", 
-    "content": {}
+    "content": {
+        "cmip6.landice.key_properties.name": {
+            "values": [
+                "Parallel Ice Sheet Model (PISM, https://pism-docs.org)"
+            ]
+        }
+    }
 }

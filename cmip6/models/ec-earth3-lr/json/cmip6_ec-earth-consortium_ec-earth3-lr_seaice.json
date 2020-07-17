@@ -4,5 +4,11 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-lr", 
     "topic": "seaice", 
-    "content": {}
+    "content": {
+        "cmip6.seaice.grid.name": {
+            "values": [
+                "ORCA1L75"
+            ]
+        }
+    }
 }

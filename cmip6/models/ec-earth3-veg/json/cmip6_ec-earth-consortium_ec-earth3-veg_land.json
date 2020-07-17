@@ -4,5 +4,330 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-veg", 
     "topic": "land", 
-    "content": {}
+    "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "HTESSEL & LPJ-GUESS"
+            ]
+        }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "Water cycle, energy balance, snow, dynamic vegetation, land cover and land use change, carbon and nitrogen cycling, crop model, permafrost carbon"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "Features in this section describes updates when LPJ-GUESS is coupled to HTESSEL to handle processes LPJ-GUESS contributes with e.g. dynamic vegetation, carbon and nitrogen cycling. LPJ-GUESS updates the vegetation fields in the existing LSM HTESSEL. LPJ-GUESS stands for Lund-Potsdam-Jena General Ecosystem Simulator. LPJ-GUESS (Smith-et-al-2001, Smith-et-al-2014, Lindeskog-et-al-2013, Olin-et-al-2015a, Olin-et-al-2015b) is a dynamic vegetation model optimised for regional applications but also applicable globally based on a detailed individual- and patch-level representation of vegetation structure and dynamics. LPJ-GUESS simulate vegetation composition and cover in terms of major species or plant functional types (PFTs), biomass and soil organic matter carbon pools, leaf area index (LAI), net primary production (NPP), net ecosystem carbon balance, carbon emissions from wildfires, biogenic volatile organic compounds (BVOCs), evapotranspiration, runoff, nitrogen pools and fluxes, methane emissions, and permafrost. LPJ-GUESS also includes a detailed representation of land-use change dynamics together with a crop module. The dynamic vegetation model has been modified to include additional processes, as described in Miller-et-al-2020 and Doescher-et-al-2020."
+            ]
+        }, 
+        "cmip6.land.key_properties.description": {
+            "values": [
+                "LPJ-GUESS (Smith-et-al-2001, Smith-et-al-2014) is a dynamic vegetation model optimised for regional applications but also applicable globally based on a detailed individual- and patch-level representation of vegetation structure and dynamics. Vegetation is represented as a mixture of plant functional types (PFTs) that represent the globally most abundant growth strategies of woody and herbaceous vegetation. PFTs are distinguished in terms of growth form, phenology, life history strategy, allometry, photosynthetic pathway (C3 or C4), climate-dependent scaling of physiological processes and a limited set of bioclimatic limits (Smith-et-al-2014). The model uses climate, [CO2], soil information and nitrogen deposition as input, and plant communities evolve dynamically from growth and competition for light, space and soil resources (water and nitrogen) in response to these drivers. LPJ-GUESS also includes a detailed representation of land-use change dynamics together with a crop module (Lindeskog-et-al-2013). In the crop module for global-scale applications, the dominant crop types, such as wheat, maize and rice are represented as crop PFTs, which differ amongst others in management-related parameters such as baseline sowing and harvest dates. Sowing and harvest decisions are modelled based on climate variability and climatic thresholds (Lindeskog-et-al-2013). Irrigation, residue removal after harvest and cover crops between the main growing-seasons, are further management options available in the model. Whereas for other managed land-uses (pasture and urban land-use) and peatland two herbaceous species, one each conforming to the C3 and C4 photosynthetic pathways, are simulated. "
+            ]
+        }, 
+        "cmip6.land.key_properties.land_atmosphere_flux_exchanges": {
+            "values": [
+                "carbon"
+            ]
+        }, 
+        "cmip6.land.key_properties.atmospheric_coupling_treatment": {
+            "values": [
+                "Daily exchange of NBP"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "Other: Natural vegetation", 
+                "Other: Cropland", 
+                "Other: Irrigated Crop", 
+                "Other: Pasture", 
+                "Other: Peatland", 
+                "urban"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover_change": {
+            "values": [
+                "Gross transition prescribed from LUH2 dataset"
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.water": {
+            "values": [
+                "Perfect (within 10^-16 kg H2O m^-2 year^1)"
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.carbon": {
+            "values": [
+                "Perfect (within 10^-16 kg C m^-2 year^1)"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran/C++"
+            ]
+        }, 
+        "cmip6.land.grid.name": {
+            "values": [
+                "T255"
+            ]
+        }, 
+        "cmip6.land.grid.horizontal.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.name": {
+            "values": [
+                "LPJ-GUESS"
+            ]
+        }, 
+        "cmip6.land.vegetation.overview": {
+            "values": [
+                "LPJ-GUESS (Smith-et-al-2001, Smith-et-al-2014) is a dynamic vegetation model optimised for regional applications but also applicable globally based on a detailed individual- and patch-level representation of vegetation structure and dynamics. Vegetation is represented as a mixture of plant functional types (PFTs) that represent the globally most abundant growth strategies of woody and herbaceous vegetation. PFTs are distinguished in terms of growth form, phenology, life history strategy, allometry, photosynthetic pathway (C3 or C4), climate-dependent scaling of physiological processes and a limited set of bioclimatic limits (Smith et al., 2014). The model uses climate, [CO2], soil information and nitrogen deposition as input, and plant communities evolve dynamically from growth and competition for light, space and soil resources (water and nitrogen) in response to these drivers. LPJ-GUESS also includes a detailed representation of land-use change dynamics together with a crop module (Lindeskog-et-al-2013). In the crop module for global-scale applications, the dominant crop types, such as wheat, maize and rice are represented as crop PFTs, which differ amongst others in management-related parameters such as baseline sowing and harvest dates. Sowing and harvest decisions are modelled based on climate variability and climatic thresholds (Lindeskog-et-al-2013). Irrigation, residue removal after harvest and cover crops between the main growing-seasons, are further management options available in the model. Whereas for other managed land-uses (pasture and urban land-use) and peatland two herbaceous species, one each conforming to the C3 and C4 photosynthetic pathways, are simulated. LPJ-GUESS simulate vegetation composition and cover in terms of major PFTs, biomass and soil organic matter carbon pools, leaf area index (LAI), net primary production (NPP), net ecosystem carbon balance, carbon emissions from wildfires, biogenic volatile organic compounds (BVOCs), evapotranspiration, runoff, nitrogen pools and fluxes, methane emissions, and permafrost."
+            ]
+        }, 
+        "cmip6.land.vegetation.time_step": {
+            "values": [
+                86400.0
+            ]
+        }, 
+        "cmip6.land.vegetation.dynamic_vegetation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.tiling": {
+            "values": [
+                "Vegetation dynamics are simulated in LPJ-GUESS on six stand types, five having dynamic gridcell fractions consistent with the LUH2 dataset, namely Natural, Pasture, Urban, Crop, and Irrigated Crop, and one, Peatland, having a fixed gridcell fraction."
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "Other: BNE (Shade-tolerant boreal needleleaved evergreen tree, Natural)", 
+                "Other: BINE (Shade-intolerant boreal needleleaved evergreen tree, Natural)", 
+                "Other: BNS (Shade-intolerant boreal needleleaved summergreen tree, Natural)", 
+                "Other: IBS (Shade-intolerant broadleaved summergreen tree, Natural)", 
+                "Other: TeBS (Shade-tolerant temperate broadleaved summergreen tree, Natural)", 
+                "Other: TeNE (Shade-intolerant temperate needleleaved evergreen tree, Natural)", 
+                "Other: TeBE (Shade-tolerant temperate broadleaved evergreen tree, Natural)", 
+                "Other: TrBE (Shade-tolerant tropical broadleaved evergreen tree, Natural)", 
+                "Other: TrIBE (Shade-intolerant tropical broadleaved evergreen tree, Natural)", 
+                "Other: TrBR (Shade-intolerant tropical broadleaved raingreen tree, Natural)", 
+                "Other: C3G (Boreal/temperate grass, Natural, Urban, Pasture, Peatland)", 
+                "Other: C4G (Tropical grass, Natural, Urban, Pasture, Peatland)", 
+                "Other: CC3ann (C3 annual crop, Crop, Irrigated crop)", 
+                "Other: CC3per (C3 perennial crop, Crop, Irrigated crop)", 
+                "Other: CC3nfx (C3 nitrogen fixers, Crop, Irrigated crop)", 
+                "Other: CC4ann (C4 annual crop, Crop, Irrigated crop)", 
+                "Other: CC4per (C4 perennial crop, Crop, Irrigated crop)"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "dynamical (varying from simulation)"
+            ]
+        }, 
+        "cmip6.land.vegetation.interception": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology_description": {
+            "values": [
+                "Plant phenology is described by means of three specific parameterization: (1) evergreen plant phenology; (2) seasonal-deciduous plant phenology; (3) stress-deciduous plant phenology (Smith-et-al-2014). An explicit phenological cycle is simulated only for leaves and fine roots in seasonal-deciduous and stress-deciduous PFTs, whereas evergreen PFTs have a prescribed background litterfall for leaves, fine roots and sapwood. Seasonal-deciduous plant phenology is based on a PFT-dependent accumulated GDD sum threshold for leaf onset, with leaf area rising from 0 to the pre-determined annual maximum leaf area linearly with an additional 200 (100 for herbaceous and needleleaved tree PFTs) degree days above a threshold of 5C. For seasonal-deciduous PFTs, growing season length is fixed, all leaves being shed after the equivalent of 210 days with full leaf cover. Stress-deciduous plant phenology PFTs shed their leaves whenever the water stress scalar \u03c9 drops below a threshold, \u03c9min, signifying the onset of a drought period or dry season. New leaves are produced, after a prescribed minimum dormancy period, when \u03c9 again rises above \u03c9min (Smith-et-al-2014). Crop PFT sowing and harvest decisions are modelled based on climate variability and climatic thresholds (Lindeskog-et-al-2013)."
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index_description": {
+            "values": [
+                "Plant individual LAI is calculated as follows\n\nLAI = Cleaf / Indivdensity * SLA / Crownarea"
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass_description": {
+            "values": [
+                "After deduction of 10 % for reproductive costs, plants invest their annual NPP in biomass growth. For woody PFTs, relative allocation to the biomass compartments leaves, fine roots and sapwood is determined at the level of the average individual of a cohort in a patch by satisfying mechanical, functional balance and demographic constraints. Stem diameter increases with height\n\nH = k2 \u00b7 D^(2/3)\n\nwhere H is stem height (m), D is stem diameter (m) and k2 is a PFT-specific constant. Sapwood \u2013 which contains the transport vessels that supply leaves with water and the whole plant with assimilates of photosynthesis \u2013 is\nassumed to maintain a cross-sectional area in proportion to the total area of leaves\n\nLA = k_(LA:SA) \u00b7 SA\n\nwhere LA is annual maximum individual leaf area (m2), SA is sapwood cross-sectional area (m2) and k_(LA:SA) is a PFT specific constant. Relative investment in aboveand below-ground resource-uptake surfaces \u2013 leaves and fine roots \u2013 is affected by resource stress experienced the preceding growing season\n\nCleaf = lrmax \u00b7 \u03c9 \u00b7 Croot\n\nwhere Cleaf and Croot denote the annual maximum C biomass of leaves and fine roots, respectively (kg C m\u22122); lrmax is a PFT-specific constant; and \u03c9 is a dimensionless scalar in the range 0\u20131, lower values being indicative of stress experienced either as a reduction in photosynthesis below potential due to stomatal closure under soil water limitation or leaf N limitation on the carboxylation capacity of rubisco. As individuals within a cohort grow in size and canopy spread, crowding increases competition among individuals for limited above- and below-ground resources, resulting in suppression and ultimately mortality of a proportion of individuals. This phenomenon, known as selfthinning, results in a negative relationship between size and density in closed forest stands, and provides a fourth allometric constraint, linking crown area (the inverse of density assuming perfect space-filling by tree crowns) to stem diameter\n\nCA = k1 \u00b7 D^1.6\n\nwhere CA is crown area (m2) and k1 is a PFT-specific constant. Allocation for herbaceous PFTs, which lack stems in the model, is subject only to the functional balance constraint. A functional trade-off between leaf quality and short-term carbon return is represented as a fixed dependency of specific leaf area (SLA, leaf area per unit C mass, m2 kg C\u22121) on leaf longevity, based on a well-documented global relationship between these variables. Longer-lived leaves carry a larger cost in terms of allocated C per unit leaf area, but provide a more-than-equal return in terms of assimilated C if temperatures and soil conditions are conducive to achieving positive C balance for a sufficiently long growing season each year. PFTs have prescribed turnover coefficients (yr\u22121) for leaves, fine roots and (for woody PFTs) sapwood. Shed leaves and fine roots become part of the above-ground and soil litter pools where they enter the soil decomposition cycle. Sapwood is converted to non-living heartwood, which contributes to stem dimensions but is no longer involved in water and solute transport, and does not respire (Smith-et-al-2014). \n "
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance": {
+            "values": [
+                "CO2", 
+                "light", 
+                "temperature", 
+                "water availability"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance_description": {
+            "values": [
+                "Exchange of CO2 and water vapour by the vegetation canopy is computed on a daily time step by a coupled photosynthesis and stomatal conductance sub-model based on the Collatz-et-al-1991, Collatz-et-al-1992 simplification of the Farquhar biochemical model, with upscaling from leaf to canopy level following the strong optimality approach of Haxeltine-and-Prentice-1996a, Haxeltine-and-Prentice-1996b. In this model, photosynthesis, net of photorespiration, is the smaller of an electron-transport-limited and a carboxylation-limited rate (Collatz-et-al-1991), and is affected by incoming photosynthetically active radiation (PAR), temperature, intercellular [CO2] and carboxylation capacity, Vmax. The latter is determined prognostically based on the assumption (Haxeltine-and-Prentice-1996a) that plants allocate N (for investment in the enzyme rubisco that determines Vmax) throughout the canopy in a manner that maximises net CO2 assimilation at the canopy level."
+            ]
+        }, 
+        "cmip6.land.vegetation.prognostic_variables": {
+            "values": [
+                "baresoilFrac_yearly, residualFrac_yearly, cLitter_yearly, cLitterLut_yearly, cProduct_yearly, cProductLut_yearly, cropFrac_yearly, cSoil_yearly, cSoilLut_yearly, cVeg_yearly, cVegLut_yearly, fracInLut_yearly, fracLut_yearly, fracOutLut_yearly, grassFrac_yearly, shrubFrac_yearly, treeFrac_yearly, cLand_monthly, cLitterCwd_monthly, cLitterSubSurf_monthly, cLitterSurf_monthly, cOther_monthly, cropFracC3_monthly, cropFracC4_monthly, cSoil_monthly, cStem_monthly, cTotFireLut_monthly, cWood_monthly, evspsblpot_monthly, fAnthDisturb_monthly, fBNF_monthly, fCLandToOcean_monthly, fDeforestToAtmos_monthly, fDeforestToProduct_monthly, fFireAll_monthly, fFireNat_monthly, fHarvestToAtmos_monthly, fLitterFire_monthly, fLuc_monthly, fLulccAtmLut_monthly, fLulccProductLut_monthly, fLulccResidueLut_monthly, fNAnthDisturb_monthly, fNdep_monthly, fNfert_monthly, fNgas_monthly, fNgasFire_monthly, fNgasNonFire_monthly, fNLandToOcean_monthly, fNleach_monthly, fNLitterSoil_monthly, fNloss_monthly, fNnetmin_monthly, fNProduct_monthly, fNup_monthly, fNVegLitter_monthly, fProductDecomp_monthly, fProductDecompLut_monthly, fracLut_monthly, fVegFire_monthly, gppGrass_monthly, gppLut_monthly, gppTree_monthly, grassFracC3_monthly, grassFracC4_monthly, irrLut_monthly, laiLut_monthly, mrroLut_monthly, mrsll_monthly, mrsol_monthly, mrsoLut_monthly, mrsosLut_monthly, necbLut_monthly, nep_monthly, netAtmosLandCO2Flux_monthly, nLand_monthly, nLeaf_monthly, nLitter_monthly, nLitterCwd_monthly, nLitterSubSurf_monthly, nLitterSurf_monthly, nMineral_monthly, nMineralNH4_monthly, nMineralNO3_monthly, nOther_monthly, nppGrass_monthly, nppLut_monthly, nppTree_monthly, nProduct_monthly, nRoot_monthly, nSoil_monthly, nStem_monthly, nwdFracLut_monthly, nVeg_monthly, fN2O_monthly, fNOx_monthly, pastureFracC3_monthly, pastureFracC4_monthly, prCrop_monthly, raGrass_monthly, raLeaf_monthly, raLut_monthly, raOther_monthly, raRoot_monthly, raStem_monthly, raTree_monthly, rhLitter_monthly, rhLut_monthly, rhSoil_monthly, treeFracBdlDcd_monthly, treeFracBdlEvg_monthly, treeFracNdlDcd_monthly, treeFracNdlEvg_monthly, vegFrac_monthly, vegHeightTree_monthly, baresoilFrac_monthly, cCwd_monthly, cLeaf_monthly, cLitter_monthly, cLitterAbove_monthly, cLitterBelow_monthly, cProduct_monthly, cRoot_monthly, cropFrac_monthly, cSoilFast_monthly, cSoilMedium_monthly, cSoilSlow_monthly, cVeg_monthly, evspsblsoi_monthly, evspsblveg_monthly, evspsbl_monthly, fFire_monthly, fGrazing_monthly, fHarvest_monthly, fLitterSoil_monthly, fVegLitter_monthly, gpp_monthly, grassFrac_monthly, lai_monthly, landCoverFrac_monthly, mrro_monthly, mrros_monthly, mrso_monthly, mrsos_monthly, nbp_monthly, npp_monthly, pastureFrac_monthly, prveg_monthly, ra_monthly, residualFrac_monthly, rGrowth_monthly, rh_monthly, rMaint_monthly, shrubFrac_monthly, tran_monthly, treeFrac_monthly, tsl_monthly, ec_daily, et_daily, evspsblpot_daily, lai_daily, mrsll_daily, mrso_daily, mrsol_daily, mrsos_daily, mrro_daily, prCrop_daily, tran_daily, tsl_daily, prveg_daily, pasturefrac_yearly, fVegOther_monthly, fco2antt_monthly, fco2nat_monthly\n"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.name": {
+            "values": [
+                "LPJ-GUESS"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.overview": {
+            "values": [
+                "LPJ-GUESS (Smith-et-al-2001, Smith-et-al-2014) is a dynamic vegetation model optimised for regional applications but also applicable globally based on a detailed individual- and patch-level representation of vegetation structure and dynamics. Vegetation is represented as a mixture of plant functional types (PFTs) that represent the globally most abundant growth strategies of woody and herbaceous vegetation. PFTs are distinguished in terms of growth form, phenology, life history strategy, allometry, photosynthetic pathway (C3 or C4), climate-dependent scaling of physiological processes and a limited set of bioclimatic limits (Smith et al., 2014). The model uses climate, [CO2], soil information and nitrogen deposition as input, and plant communities evolve dynamically from growth and competition for light, space and soil resources (water and nitrogen) in response to these drivers. LPJ-GUESS also includes a detailed representation of land-use change dynamics together with a crop module (Lindeskog-et-al-2013). In the crop module for global-scale applications, the dominant crop types, such as wheat, maize and rice are represented as crop PFTs, which differ amongst others in management-related parameters such as baseline sowing and harvest dates. Sowing and harvest decisions are modelled based on climate variability and climatic thresholds (Lindeskog-et-al-2013). Irrigation, residue removal after harvest and cover crops between the main growing-seasons, are further management options available in the model. Whereas for other managed land-uses (pasture and urban land-use) and peatland two herbaceous species, one each conforming to the C3 and C4 photosynthetic pathways, are simulated. LPJ-GUESS simulate vegetation composition and cover in terms of major PFTs, biomass and soil organic matter carbon pools, leaf area index (LAI), net primary production (NPP), net ecosystem carbon balance, carbon emissions from wildfires, biogenic volatile organic compounds (BVOCs), evapotranspiration, runoff, nitrogen pools and fluxes, methane emissions, and permafrost."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.tiling": {
+            "values": [
+                "Vegetation dynamics are simulated in LPJ-GUESS on six stand types, five having dynamic gridcell fractions consistent with the LUH2 dataset, namely Natural, Pasture, Urban, Crop, and Irrigated Crop, and one, Peatland, having a fixed gridcell fraction."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.time_step": {
+            "values": [
+                86400.0
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.prognostic_variables": {
+            "values": [
+                "NBP"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
+            "values": [
+                7.0
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Per individual plant: Leaf, Fine root, Sapwood, Heartwood. Additional per crop individual: Harvestable organ, Above-ground pool, Stem."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics": {
+            "values": [
+                "Vegetation dynamics in LPJ-GUESS are based on the gap-phase dynamics theory as conceptualised in so-called forest gap models (Bugmann-2001). The implementation in LPJ-GUESS is fully described by Smith-et-al-2001. Multiple PFTs are represented and may co-occur within simulated stands or grid cells. The basic structural unit is an average individual plant, whose state is defined by foliage and fine root compartments, for woody PFTs also sapwood and heartwood. Each compartment consists of a quantity of C biomass expressed on a patch ground area basis, kg C m\u22122. For woody PFTs, each average individual is associated with a cohort (age class) of individuals that are born in the same year and retain the same size and form as they grow. Stem density (indiv. m\u22122) is an additional state descriptor for a cohort in a patch. For herbaceous PFTs (\u201cgrasses\u201d) a single average individual represents the entire population of a given patch; cohorts are not distinguished and population density is not defined. For woody PFTs, height, stem diameter and crown area of individual trees (or shrubs) can be derived from the state variables, i.e. sapwood biomass and stem density, based on PFT-specific allometric constants (see Smith-et-al-2014). Patches (0.1 ha) correspond to the maximum expected area of influence, in terms of competition for light and soil resources, of a large individual tree on its neighbours. Replicate patches are simulated to account for landscape-scale heterogeneity in stand structure and composition arising from the differential disturbance histories of different patches. In a standard simulation, generic patch-destroying disturbances (representing, for example, windstorms or landslides) recur stochastically with a prescribed expected frequency, typically 0.01 yr\u22121. Wildfires are also simulated and result in partial destruction of the biomass of an affected patch. Bioclimatic limits define the environmental envelope within which PFTs are able to establish and/or survive under current climate conditions in a simulated site or grid cell. Establishment is also affected by stand structure, the density of new individuals born each year declining as crowding reduces potential forest-floor NPP below the optimum possible in the absence of standing vegetation, preempting light and soil resources. PFTs differ in terms of a suite of prescribed parameters that together define their life-history strategy. In general, shade-tolerant and shade-intolerant PFTs are distinguished. Shade-intolerant PFTs exhibit relatively dense establishment under initial, non-crowded conditions, rapid height growth, a short average life span, and poor tolerance of resource stress, the lattermost resulting in markedly increased mortality, reducing stem density and biomass, under shading or other resource-deficit-mediated stress. Shade-tolerant PFTs have lower initial establishment and slower height growth but a longer expected life span and lower mortality under shading or resource stress. Interactions between PFTs differing in life history and other characteristics greatly influence the structural and compositional evolution of stands (patches) following a disturbance; under climate conditions promoting sufficient productivity for stand closure, a classic secondary successional series, with shade-intolerant trees displacing an initial layer of grass, to be subsequently succeeded by shade-tolerant trees, typically emerges (Smith-et-al-2014)."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.photosynthesis.method": {
+            "values": [
+                "Exchange of CO2 and water vapour by the vegetation canopy is computed on a daily time step by a coupled photosynthesis and stomatal conductance sub-model based on Collatz-et-al-1991 and Collatz-et-al-1992 simplification of the Farquhar biochemical model, with upscaling from leaf to canopy level following the strong optimality approach of Haxeltine-and-Prentice-1996a and Haxeltine-and-Prentice-1996b. In this model, photosynthesis, net of photorespiration, is the smaller of an electron-transport-limited and a carboxylation-limited rate (Collatz-et-al-1991), and is affected by incoming photosynthetically active radiation (PAR), temperature, intercellular [CO2] and carboxylation capacity, Vmax. The latter is determined prognostically based on the assumption (Haxeltine-and-Prentice-1996a) that plants allocate N (for investment in the enzyme rubisco that determines Vmax) throughout the canopy in a manner that maximises net CO2 assimilation at the canopy level."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration": {
+            "values": [
+                "Maintanance respiration depends on a PFT-specific respiration coefficient to model acclimation of respiration rates to average (temperature) conditions per PFT, a ecosystem temperature response function and individual plant root and sapwood C and N.\n\nResp_main = respcoeff_pft * Cmass / CtoN * g(T)"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.growth_respiration": {
+            "values": [
+                "Growth respiration = 0.25 ( GPP - resp_main)"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.method": {
+            "values": [
+                "After deduction of 10 % for reproductive costs, plants invest their annual NPP in biomass growth. For woody PFTs, relative allocation to the biomass compartments leaves, fine roots and sapwood is determined at the level of the average individual of a cohort in a patch by satisfying mechanical, functional balance and demographic constraints. Stem diameter increases with height\n\nH = k2 \u00b7 D^(2/3)\n\nwhere H is stem height (m), D is stem diameter (m) and k2 is a PFT-specific constant. Sapwood \u2013 which contains the transport vessels that supply leaves with water and the whole plant with assimilates of photosynthesis \u2013 is\nassumed to maintain a cross-sectional area in proportion to the total area of leaves\n\nLA = k_(LA:SA) \u00b7 SA\n\nwhere LA is annual maximum individual leaf area (m2), SA is sapwood cross-sectional area (m2) and k_(LA:SA) is a PFT specific constant. Relative investment in aboveand below-ground resource-uptake surfaces \u2013 leaves and fine roots \u2013 is affected by resource stress experienced the preceding growing season\n\nCleaf = lrmax \u00b7 \u03c9 \u00b7 Croot\n\nwhere Cleaf and Croot denote the annual maximum C biomass of leaves and fine roots, respectively (kg C m\u22122); lrmax is a PFT-specific constant; and \u03c9 is a dimensionless scalar in the range 0\u20131, lower values being indicative of stress experienced either as a reduction in photosynthesis below potential due to stomatal closure under soil water limitation or leaf N limitation on the carboxylation capacity of rubisco. As individuals within a cohort grow in size and canopy spread, crowding increases competition among individuals for limited above- and below-ground resources, resulting in suppression and ultimately mortality of a proportion of individuals. This phenomenon, known as selfthinning, results in a negative relationship between size and density in closed forest stands, and provides a fourth allometric constraint, linking crown area (the inverse of density assuming perfect space-filling by tree crowns) to stem diameter\n\nCA = k1 \u00b7 D^1.6\n\nwhere CA is crown area (m2) and k1 is a PFT-specific constant. Allocation for herbaceous PFTs, which lack stems in the model, is subject only to the functional balance constraint. A functional trade-off between leaf quality and short-term carbon return is represented as a fixed dependency of specific leaf area (SLA, leaf area per unit C mass, m2 kg C\u22121) on leaf longevity, based on a well-documented global relationship between these variables. Longer-lived leaves carry a larger cost in terms of allocated C per unit leaf area, but provide a more-than-equal return in terms of assimilated C if temperatures and soil conditions are conducive to achieving positive C balance for a sufficiently long growing season each year. PFTs have prescribed turnover coefficients (yr\u22121) for leaves, fine roots and (for woody PFTs) sapwood. Shed leaves and fine roots become part of the above-ground and soil litter pools where they enter the soil decomposition cycle. Sapwood is converted to non-living heartwood, which contributes to stem dimensions but is no longer involved in water and solute transport, and does not respire (Smith-et-al-2014). \n "
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
+            "values": [
+                "Other: leaves+fine roots+sapwood+heartwood"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "function of plant allometry"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.phenology.method": {
+            "values": [
+                "Plant phenology is described by means of three specific parameterization: (1) evergreen plant phenology; (2) seasonal-deciduous plant phenology; (3) stress-deciduous plant phenology (Smith-et-al-2014). An explicit phenological cycle is simulated only for leaves and fine roots in seasonal-deciduous and stress-deciduous PFTs, whereas evergreen PFTs have a prescribed background litterfall for leaves, fine roots and sapwood. Seasonal-deciduous plant phenology is based on a PFT-dependent accumulated GDD sum threshold for leaf onset, with leaf area rising from 0 to the pre-determined annual maximum leaf area linearly with an additional 200 (100 for herbaceous and needleleaved tree PFTs) degree days above a threshold of 5C. For seasonal-deciduous PFTs, growing season length is fixed, all leaves being shed after the equivalent of 210 days with full leaf cover. Stress-deciduous plant phenology PFTs shed their leaves whenever the water stress scalar \u03c9 drops below a threshold, \u03c9min, signifying the onset of a drought period or dry season. New leaves are produced, after a prescribed minimum dormancy period, when \u03c9 again rises above \u03c9min (Smith-et-al-2014). Crop PFT sowing and harvest decisions are modelled based on climate variability and climatic thresholds (Lindeskog-et-al-2013)."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.mortality.method": {
+            "values": [
+                "Tree mortality in LPJ-GUESS is caused by i) background mortality related to species longevity, ii) low growth efficiency, which is strongly influenced by competition, particularly for light, iii) winter temperatures falling below a PFT specific limit, and iv) fire."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.number_of_carbon_pools": {
+            "values": [
+                10.0
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.carbon_pools": {
+            "values": [
+                "Per patch PFT: leaf litter, fine root litter, sapwood litter, heartwood litter. Per patch soil: Surface metabolic litter, Surface structural litter, Surface fine woody debrise, Surface coarse woody debrise, Soil metabolic litter, Soil stuctural litter"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.decomposition": {
+            "values": [
+                "Readily decomposable organic matter follows a first-order reaction kinetics equation"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.method": {
+            "values": [
+                "Using a CENTURY like approach (Parton-et-al-1993) with first-order reaction kinetics"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
+            "values": [
+                5.0
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.carbon_pools": {
+            "values": [
+                "Surface microbial pool, Surface humus pool, Soil microbial pool, Soil slow pool, Soil passive pool"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.decomposition": {
+            "values": [
+                "Readily decomposable organic matter follows a first-order reaction kinetics equation"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.method": {
+            "values": [
+                "Using a CENTURY like approach (Parton-et-al-1993) with first-order reaction kinetics"
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.name": {
+            "values": [
+                "LPJ-GUESS"
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.overview": {
+            "values": [
+                "The N cycle in LPJ-GUESS is well described in Smith-et-al-2014.\n\nN enters the ecosystem via N deposition (single bulk value encompassing wet and dry deposition) and biological N fixation (BNF, kg N ha\u22121 yr\u22121). N deposition is prescribed as monthly mean values from an external database, whereas BNF is computed prognostically based on an empirical dependency on ecosystem ET from Cleveland-et-al-1999. Among three alternatives proposed by Cleveland-et-al-1999 LPJ-GUESS chose the lower-range \u201cconservative\u201d parameterisation, with 5-year average actual evapotranspiration (AET, mm yr\u22121), prognosed by the model, as the independent variable\n\nBNF = 0.0102 \u00b7 AET + 0.524\n\nBNF is distributed equally throughout the year and added directly to the soil-available mineral N pool, Navail, which is capped at a saturation level of 2 g N m\u22122 following Parton-et-al-1993. BNF in excess of the saturation level is discarded (assumed not to have occurred). N deposition during periods of snow lie is stored in the snowpack and released to the soil in proportion to snowmelt.\n\nN is lost from the ecosystem via leaching, computed daily as the sum of leached soluble organic N and leached mineral N, and through volatilisation by wildfires. In addition, 1 % of daily N mineralisation is assumed to be lost as gaseous emissions from soils. Leaching of soluble organic N and C is computed conjointly as a fraction (LO) of the soil microbial SOM N and C pool, dependent on percolation (PH2O, mm) and soil sand fraction (TS), following  Parton-et-al-1993\n\nLO = 1.83 \u00b7 10\u22124 \u00b7 PH2O(0.01 + 0.04 \u00b7 TS).\n\nFor mineral N, the leaching fraction (LM) depends on daily percolation as a fraction of available soil water content (WTOT, mm)\n\nLM = PH2O / WTOT\n\nC and N dynamics of soils are simulated conjointly by an SOM scheme adopted from the CENTURY model (Parton-et-al-1993), with modifications by Comins-and-McMurtrie-1993 and Kirschbaum-and-Paul-2002, and updates by Parton-et-al-2010. Eleven pools differing in C:N stoichiometry and base decay rate are distinguished. Decomposition, computed daily for each pool, results in heterotrophic respiration (release of CO2) and transfer of C and N between pools, satisfying mass balance. Carbon entering the receiver pool drives N mineralisation or immobilisation. N is mineralised (added to the soil mineral N pool, Navail) when N transferred from a donor pool exceeds the corresponding increase dictated by the prescribed C:N ratio of a receiver pool (N \u201csupply\u201c exceeds \u201cdemand\u201c). Conversely, if the N flux from a donor pool is too small to satisfy the C:N ratio of the receiver pool (demand > supply), N immobilisation occurs, reducing Navail to satisfy the deficit. If Navail is insufficient to satisfy the N demand for immobilisation among all pools, decay rates are reduced proportionately so that net immobilisation matches Navail.\n\nPlants obtain N for allocation to their biomass compartments leaves, fine roots and (for woody PFTs) sapwood through root uptake from the soil mineral N pool Navail. N uptake takes place daily and is the smaller of current supply, i.e. Navail, and demand, subject to a maximum constraint on total uptake. Vegetation N demand is based on a solution of the carboxylation capacity of rubisco (Vmax) that maximises net assimilation at the canopy level given current temperature, light interception and intercellular [CO2], the latter affected by ambient [CO2] but also by the influence of soil moisture and boundary layer humidity on stomatal conductance (Haxeltine-and-Prentice-1996a, Haxeltine-and-Prentice-b; Sitch-et-al-2003). Following Haxeltine-and-Prentice-1996a, leaf N content (Nleaf, g N m\u22122) is related to Vmax (g C m\u22122) by the relationship\n\nNleaf = 2083 \u00b7 Vmax \u00b7 exp[\u22120.693 \u00b7 (T \u221225)] / L \u00b7 f(LAI) + 7.15 \u00b7 Cleaf\n\nwhere T is air temperature (\u25e6C); L is day length (s); Cleaf is leaf C mass, accounting for canopy phenology (g C m\u22122); and f(LAI) is a modifier dependent on current leaf area index (LAI, m2 m\u22122) that accounts for the empirical finding that leaf N content declines more gradually with canopy depth compared to incoming sunlight (Lloyd-et-al-2010; Peltoniemi-et-al-2012)\n\nf(LAI) = exp(0.12 \u00b7 LAI)\n\nBased on the Nleaf eqn, the target leaf C:N mass ratio may be calculated as Cleaf / Nleaf. Leaf C:N is, however, constrained to remain within prescribed boundaries [CNleaf,min, CNleaf,max] based on observations (Reich-et-al-1992; White-et-al-2000). C:N ratios for the further compartments\u2019 fine roots and (for woody PFTs) sapwood are assumed to vary proportionately with leaf C:N, fine roots maintaining a C:N ratio 1.16 times higher, and sapwood 6.9 times higher, than leaves (Friend-et-al-1997)."
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.tiling": {
+            "values": [
+                "Vegetation dynamics are simulated in LPJ-GUESS on six stand types, five having dynamic gridcell fractions consistent with the LUH2 dataset, namely Natural, Pasture, Urban, Crop, and Irrigated Crop, and one, Peatland, having a fixed gridcell fraction."
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.time_step": {
+            "values": [
+                86400.0
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.prognostic_variables": {
+            "values": [
+                "fBNF_monthly, fNAnthDisturb_monthly, fNdep_monthly, fNfert_monthly, fNgas_monthly, fNgasFire_monthly, fNgasNonFire_monthly, fNLandToOcean_monthly, fNleach_monthly, fNLitterSoil_monthly, fNloss_monthly, fNnetmin_monthly, fNProduct_monthly, fNup_monthly, fNVegLitter_monthly, nLand_monthly, nLeaf_monthly, nLitter_monthly, nLitterCwd_monthly, nLitterSubSurf_monthly, nLitterSurf_monthly, nMineral_monthly, nMineralNH4_monthly, nMineralNO3_monthly, nOther_monthly, nProduct_monthly, nRoot_monthly, nSoil_monthly, nStem_monthly, nVeg_monthly, fN2O_monthly, fNOx_monthly"
+            ]
+        }
+    }
 }

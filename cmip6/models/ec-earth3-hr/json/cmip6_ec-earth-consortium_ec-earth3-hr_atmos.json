@@ -4,5 +4,16 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "ec-earth3-hr", 
     "topic": "atmos", 
-    "content": {}
+    "content": {
+        "cmip6.atmos.grid.name": {
+            "values": [
+                "TL511L91"
+            ]
+        }, 
+        "cmip6.atmos.grid.overview": {
+            "values": [
+                "Spectral representation with triangular truncation at wavenumber 511 with a linear N128 reduced Gaussian grid and 91 hybrid sigma-pressure levels in the vertical.\n"
+            ]
+        }
+    }
 }

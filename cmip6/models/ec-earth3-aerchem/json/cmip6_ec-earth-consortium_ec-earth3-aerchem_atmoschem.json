@@ -5,6 +5,136 @@
     "sourceID": "ec-earth3-aerchem", 
     "topic": "atmoschem", 
     "content": {
+        "cmip6.atmoschem.key_properties.name": {
+            "values": [
+                "TM5"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+            "values": [
+                "whole atmosphere"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/mixing ratio for gas"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.repository": {
+            "values": [
+                "https://svn.ec-earth.org/ecearth3/tags/3.3.2/sources/tm5mp/"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_version": {
+            "values": [
+                "TM5-mp version 3.0"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.method": {
+            "values": [
+                "Operator splitting"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_chemistry_timestep": {
+            "values": [
+                1800.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_alternate_order": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                3600.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Back Euler"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.turbulence": {
+            "values": [
+                2.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.convection": {
+            "values": [
+                2.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.precipitation": {
+            "values": [
+                3.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.emissions": {
+            "values": [
+                3.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.deposition": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.gas_phase_chemistry": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.tropospheric_heterogeneous_phase_chemistry": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.stratospheric_heterogeneous_phase_chemistry": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.photo_chemistry": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.aerosols": {
+            "values": [
+                4.0
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.tuning_applied.description": {
+            "values": [
+                "The TM5 model has been tuned in offline mode, in which the model is driven by meteorological and surface data from the ERA-Interim reanalysis. Tuning parameters include a prefactor for the production of NOx from lightning, a factor that effectively sets the threshold wind speed for the mineral dust souce, and a mixing timescale in the description of wet scavenging, which delays the subgrid-scale mixing between cloudy and cloud-free regions. The same setting of tuning parameters as applied in the offline model is used in EC-Earth3-AerChem."
+            ]
+        }, 
         "cmip6.atmoschem.grid.name": {
             "values": [
                 "reduced regular grid"
@@ -38,6 +168,128 @@
         "cmip6.atmoschem.grid.resolution.is_adaptive_grid": {
             "values": [
                 false
+            ]
+        }, 
+        "cmip6.atmoschem.transport.name": {
+            "values": [
+                "TM5"
+            ]
+        }, 
+        "cmip6.atmoschem.transport.overview": {
+            "values": [
+                "Transport by advection, cumulus convection, vertical diffusion, and sedimentation (see van-Noije-et-al-2014). Advection is described using the first-order \"slopes\" advection scheme from Russell and Lerner (1981).  \n"
+            ]
+        }, 
+        "cmip6.atmoschem.transport.use_atmospheric_transport": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmoschem.transport.transport_details": {
+            "values": [
+                "Transport by advection, cumulus convection, vertical diffusion, and sedimentation (see van-Noije-et-al-2014). Advection is described using the first-order \"slopes\" advection scheme from Russell and Lerner (1981).  \n"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.overview": {
+            "values": [
+                "Anthropogenic and biomass burning emissions of reactive gases from CMIP6. Other emissions as described by van-Noije-et-al-2020."
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
+            "values": [
+                "Anthropogenic", 
+                "Biomass burning", 
+                "Vegetation", 
+                "Soil", 
+                "Sea surface", 
+                "Other: Continuously emitting volcanoes", 
+                "Other: Other natural"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.method": {
+            "values": [
+                "Interactive"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
+            "values": [
+                "NOx, CH4, NMVOCs, CO, NH3, SOx"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "CH4"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "CH4, O3, HNO3"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.name": {
+            "values": [
+                "mCB05"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.overview": {
+            "values": [
+                "TM5 uses a modified version of the Carbon Bond '05 (CB05) tropospheric gas-phase chemistry scheme (see Williams-et-al-2017)."
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "This process is not explicitly represented. It is accounted for by relaxing the ozone mixing ratios above certain levels in the stratosphere to the CMIP6 data set."
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "Heterogeneous conversion of N2O5 to HNO3 on cloud droplets, ice particles and aerosols, and of HO2 to H2O2 and NO3 to HNO3 on aerosols is included as described by van-Noije-et-al-2020."
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "Sulphate", 
+                "Nitrate"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.interactive_dry_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.overview": {
+            "values": [
+                "The photo chemistry is described by Williams-et-al-2017, and uses the photolysis scheme from Williams-et-al-2012. The treatment of clouds and aerosols in the calculation of photolysis rates is described by van-Noije-et-al-2020."
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.photolysis.method": {
+            "values": [
+                "Online"
+            ]
+        }, 
+        "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions": {
+            "values": [
+                "See Williams-et-al-2012"
             ]
         }
     }
