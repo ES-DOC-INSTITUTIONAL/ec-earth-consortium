@@ -100,6 +100,62 @@
             "bibtex": "@TECHREPORT{Madec1998,\n  author = {G. Madec and P. Delecluse and M. Imbard and C. Levy},\n  title = {OPA 8 Ocean General Circulation Model - Reference Manual},\n  institution = {LODYC/IPSL Note 11},\n  year = {1998}\n}\n", 
             "url": null, 
             "long_name": null
+        }, 
+        {
+            "mnemonic": "Olin-et-al-2015a", 
+            "doi": "10.5194/esd-6-745-2015", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Olin-et-al-2015b", 
+            "doi": "10.5194/bg-12-2489-2015", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Lindeskog-et-al-2013", 
+            "doi": "10.5194/esd-4-385-2013", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Smith-et-al-2014", 
+            "doi": "10.5194/bg-11-2027-2014", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Smith-et-al-2001", 
+            "doi": "10.1046/j.1466-822X.2001.t01-1-00256.x", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Miller-et-al-in-prep", 
+            "doi": null, 
+            "bibtex": "\"@article{ journal = {Journal of Advances in Modeling Earth Systems},title = {Coupled dynamics of climate, vegetation, land use and terrestrial biogeochemistry in the EC-Earth-Veg ESM - implementation and evaluation}, journal = {in prep}, author = {Miller,P.A., L. Nieradzik, D. W\u00e5rlind, B. Smith, M. Lindeskog, S. Olin, P. Anthoni, A. Arneth, E. Dutra, A. Alessandri, F. Catalano, K. Wyser, E. Tourigny}, year = {2020}, }\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Rechid-et-al-2009", 
+            "doi": "10.1007/s00704-008-0003-y", 
+            "bibtex": "@Article{Rechid2009,\nauthor=\"Rechid, D.\nand Raddatz, T. J.\nand Jacob, D.\",\ntitle=\"Parameterization of snow-free land surface albedo as a function of vegetation phenology based on MODIS data and applied in climate modelling\",\njournal=\"Theoretical and Applied Climatology\",\nyear=\"2009\",\nmonth=\"\",\nday=\"\",\nvolume=\"95\",\nnumber=\"\",\npages=\"245\u2013255\",\nabstract=\"The aim of this study was to develop an advanced parameterization of the snow-free land surface albedo for climate modelling describing the temporal variation of surface albedo as a function of vegetation phenology on a monthly time scale. To estimate the effect of vegetation phenology on snow-free land surface albedo, remotely sensed data products from the Moderate-Resolution Imaging Spectroradiometer (MODIS) on board the NASA Terra platform measured during 2001 to 2004 are used. The snow-free surface albedo variability is determined by the optical contrast between the vegetation canopy and the underlying soil surface. The MODIS products of the white-sky albedo for total shortwave broad bands and the fraction of absorbed photosynthetically active radiation (FPAR) are analysed to separate the vegetation canopy albedo from the underlying soil albedo. Global maps of pure soil albedo and pure vegetation albedo are derived on a 0.5\u00b0 regular latitude/longitude grid, re-sampling the high-resolution information from remote sensing-measured pixel level to the model grid scale and filling up gaps from the satellite data. These global maps show that in the northern and mid-latitudes soils are mostly darker than vegetation, whereas in the lower latitudes, especially in semi-deserts, soil albedo is mostly higher than vegetation albedo. The separated soil and vegetation albedo can be applied to compute the annual surface albedo cycle from monthly varying leaf area index. This parameterization is especially designed for the land surface scheme of the regional climate model REMO and the global climate model ECHAM5, but can easily be integrated into the land surface schemes of other regional and global climate models.\",\nissn=\"1434-4483\",\ndoi=\"10.1007/s00704-008-0003-y\",\nurl=\"https://doi.org/10.1007/s00704-008-0003-y\"\n}\n", 
+            "url": "https://doi.org/10.1007/s00704-008-0003-y", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Best-et-al-2004", 
+            "doi": "10.1175/JHM-382.1", 
+            "bibtex": "@article{10.1175/JHM-382.1,\n    author = {Best, M. J. and Beljaars, A. and Polcher, J. and Viterbo, P.},\n    title = \"{A Proposed Structure for Coupling Tiled Surfaces with the Planetary Boundary Layer}\",\n    journal = {Journal of Hydrometeorology},\n    volume = {5},\n    number = {6},\n    pages = {1271-1278},\n    year = {2004},\n    month = {12},\n    abstract = \"{A generalized coupling is proposed between atmospheric models and surface schemes (land and ocean). A set of input and output variables is defined for this purpose in such a way that it can be used by many current and future models, including mosaic or tile schemes. The basic concept is to pass atmospheric variables from the lowest model level and their relation to corresponding fluxes to the surface scheme. The surface scheme returns the fluxes. In this framework, there is no need for the atmospheric model to have detailed information about the surface. Only the result of the surface computations is needed; namely, the fluxes, which are applied as a boundary condition. The equations for fully implicit coupling are derived, and the relevance for numerical stability is demonstrated. It is also shown that fully implicit coupling in a tile scheme leads to more robust results than partially implicit coupling.}\",\n    issn = {1525-755X},\n    doi = {10.1175/JHM-382.1},\n    url = {https://doi.org/10.1175/JHM-382.1},\n    eprint = {https://journals.ametsoc.org/jhm/article-pdf/5/6/1271/4155637/jhm-382\\_1.pdf},\n}", 
+            "url": "https://doi.org/10.1175/JHM-382.1", 
+            "long_name": null
         }
     ]
 }
