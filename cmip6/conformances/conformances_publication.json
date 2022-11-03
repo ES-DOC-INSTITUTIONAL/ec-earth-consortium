@@ -1,5 +1,567 @@
 {
     "stage one (i.e. default) conformances": {
         "publish": "on"
+    },
+    "stage two (i.e. final) conformances, arranged (key:value) by MIP -> Model": {
+        "AerChemMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "C4MIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "CDRMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "CMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "DAMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "DCPP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "HighResMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "ISMIP6": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "LS3MIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "LUMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "OMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "PAMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "PMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "RFMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "ScenarioMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        },
+        "VolMIP": {
+            "EC-EARTH3": {
+                "publish": "off"
+            },
+            "EC-EARTH3-AERCHEM": {
+                "publish": "off"
+            },
+            "EC-EARTH3-CC": {
+                "publish": "off"
+            },
+            "EC-EARTH3-GRIS": {
+                "publish": "off"
+            },
+            "EC-EARTH3-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG": {
+                "publish": "off"
+            },
+            "EC-EARTH3-VEG-LR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-HR": {
+                "publish": "off"
+            },
+            "EC-EARTH3P-VHR": {
+                "publish": "off"
+            }
+        }
     }
 }
